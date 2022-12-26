@@ -1,0 +1,29 @@
+<?dic version="1.0" language="jp" size="27"?>
+
+{Main_Title} = "DV→HDD-Überspielung";
+{POP_START__TEXT_START} = "Starten Sie das Überspielen von Ihrem DV-Gerät.\nBitte stellen Sie den Audio- und Aufnahmemodus ein und beginnen Sie mit dem Überspielen.";
+{POP_START__TEXT_SELECT_SOUND_MODE} = "Ton";
+{POP_START__TEXT_SELECT_REC_MODE} = "Aufnahmemodus";
+{POP_START__TEXT_CONNECT_DV_NAME} = "Verbundenes Gerät:";
+{POP_START__YES} = "Überspielen starten";
+{POP_START__NO_NAME} = "Nicht verfügbar";
+{DLG__YES} = "Ja";
+{DLG__NO} = "Nein";
+{ENTER} = "Bestätigen";
+{BACK} = "Zurück";
+{CANCEL} = "Abbrechen";
+{DLG_ROLLING_BACK_TAPE} = "Zurückspulen.\nBitte warten.";
+{DLG_COPY_COMPLETE} = "Überspielen abgeschlossen.";
+{DLG_STOP_COPY} = "Überspielen stoppen.\nSind Sie sicher?";
+{DLG_STOPED_COPY} = "Überspielen gestoppt.";
+{DLG_PRE60_REC} = "Überspielen beginnen.\nHH:MM AM hat geplante Aufnahmen.\nGeplante Aufnahmen können während des Überspielens nicht durchgeführt werden.\nSind Sie sicher?";
+{DLG_PRE5_REC} = "Aufnahme wird vorbereitet.\nBitte löschen Sie die geplante Aufnahme, um mit dem Überspielen fortzufahren.";
+{DLG_PLAY_REC} = "Aufnahme.\nÜberspielen nicht möglich.";
+{DLG_PLAY_REENCO} = "Optimierung.\nÜberspielen nicht möglich.";
+{DLG_UNKNOWN_DV} = "Nicht erkanntes DV-Gerät.\nÜberspielen abgebrochen.";
+{DLG_NOINPUT_TAPE} = "DV-Gerät hat keine Kassette.\nÜberspielen abgebrochen.";
+{DLG_CANNOT_CONTROL_DV} = "DV-Gerät kann nicht gesteuert werden.\nKopieren abgebrochen.";
+{DLG_COPY_FAITAL} = "Überspielen fehlgeschlagen.";
+{DLG_HDD_NO_CAPACITY} = "Ihre Festplatte hat keinen Platz mehr.\nBitte löschen Sie unnötige Titel, Tracks und Fotos.";
+{DLG_TITLE_FULL} = "Titel sind voll. Bitte löschen Sie unnötige Titel.";
+{DLG_END} = "Überspielung beenden.";

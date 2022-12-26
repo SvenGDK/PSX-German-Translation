@@ -1,0 +1,15 @@
+<?dic version="1.0" language="jp" size="14"?>
+{Main_Title} = "TV-Einstellungen";
+{Title_SettingStart} = "Automatische Kanaleinstellung";
+{ENTER} = "Bestätigen";
+{BACK} = "Zurück";
+{CANCEL} = "Abbrechen";
+{CLOSE} = "Beenden";
+{YES} = "Ja";
+{NO} = "Nein";
+{cell1_text0} = "Automatische Kanaleinstellung läuft.";
+{cell1_text1} = "Schalten Sie das Gerät während der Einstellung nicht aus.";
+{cell1_text2} = "Fortschritt";
+{Message_Cancel} = "Automatische Kanaleinrichtung durchführen.\nSind Sie sicher?";
+{Message_RecStanby} = "Sie haben weniger als 10 Minuten Zeit, um den Aufnahmeplan zu starten.\nDer aktuelle Vorgang wird abgebrochen.";
+{Message_EPGStanby} = "Beginne bald mit dem Erhalt von Programminformationen.\nAktueller Vorgang wird abgebrochen.";

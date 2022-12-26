@@ -1,0 +1,205 @@
+﻿<?dic version="1.0" language="jp" size="173" ?>
+
+{OptionsTitle} = "Optionen";
+
+{AudioPlayer} = "Digitaler Audioplayer";
+
+{PlayBtn} = "Wiedergabe";
+{PauseBtn} = "Pause";
+{StopBtn} = "Stopp";
+{PreviousBtn} = "Zurück";
+{NextBtn} = "Weiter";
+{VisualizerBtn} = "Visualizer";
+{FastForwardBtn} = "Schneller Vorlauf";
+{FastRewindBtn} = "Schneller Rücklauf";
+{InfoBtn} = "Informationen";
+{RandomBtn} = "Zufall";
+{ShuffleBtn} = "Shuffle";
+{RepeatBtn} = "Wiederholungsmodus";
+
+{Folder} = "Ordner";
+{File} = "Datei";
+{Album} = "Album";
+{Track} = "Titel";
+{Photo} = "Foto";
+{Slideshow} = "Diashow";
+{ArtistName} = "Künstler";
+{AlbumGenre} = "Genre";
+{YEAR} = "Erscheinungsjahr :";
+{Bar} = "－";
+{AlbumNumTracks} = "Titel";
+{Size} = "Größe";
+{Duration} = "Länge";
+{Bitrate} = "Bitrate";
+{FileFormat} = "Format";
+{FileFormatStr} = "CDA";
+{ImportedSize} = "Importierte Größe";
+{DiscType} = "CD-Typ";
+{ImportDate} = "Importiert";
+{CreationDate} = "Erstellt";
+{Created} = "Gerät erstellen";
+{Filmed} = "Filmgerät";
+{Resolution} = "Auflösung";
+{CameraModel} = "Kamera";
+{Length} = "Länge";
+{NotAvailable} = "N/A";
+{DataCD} = "Data CD";
+{AudioCD} = "Audio CD";
+{PrePhotoImportedDate} = "2004/11/01 12:00:00";
+
+{Folders} = "Ordner";
+{Files} = "Dateien";
+{Albums} = "Alben";
+{Tracks} = "Titel";
+{Photos} = "Fotos";
+{Information} = "Information";
+
+{FolderN} = "Ordner %d";
+{FileN} = "Datei %d";
+{AlbumN} = "Album %d";
+{TrackN} = "Titel %d";
+{PhotoN} = "Foto %d";
+
+{FolderName} = "Ordner";
+{FIleName} = "Datei";
+{AlbumName} = "Album";
+{CDTrackName} = "Titelname:";
+{TrackName} = "Titel";
+{ImageName} = "Bild";
+{MovieName} = "Film";
+
+{DeviceLabel} = "Gerät";
+{FolderLabel} = "Ordner";
+{NameLabel} = "Name";
+{MediaLabel} = "Medium";
+
+{DiscLabel} = "CD";
+{TrackLabel} = "Titel";
+{PhotoLabel} = "Foto";
+{MovieLabel} = "Film";
+
+{NumFolders} = "Ordner";
+{NumFiles} = "Dateien";
+{NumTracks} = "Titel";
+{NumPhotos} = "Fotos";
+
+{RenameQuestion} = "Soll dieses Objekt wirklich umbenannt werden?";
+
+{InvalidName} = "Dieser Name wird bereits verwendet\noder enthält nicht zulässige Zeichen.";
+{InvalidName1} = "Fehlende Zeichen oder ";
+{InvalidName2} = "Der eingegebene Name wird bereits verwendet.";
+{InvalidName3} = "Der eingegebene Name ist ungültig oder wird bereits verwendet.";
+{IllegalName} = "UT-The name you entered contains characters\nthat cannot be used.";
+{EmptyName} = "UT-That is a blank name and cannot be used.";
+{SameName} = "UT-No change to name, rename cancelled.";
+{EnterDiffName} = "Bitte anderen Namen eingeben.";
+
+{ChangeAlbumName} = "Titel des Albums ändern.";
+{ChangeTrackName} = "Namen des Titels ändern.";
+
+{PleaseWait} = "Bitte warten...";
+{DeletingWarning} = "Löschvorgang läuft... Bitte warten...";
+{RenamingWarning} = "Umbenennung läuft. Bitte warten...";
+{FormatWarning} = "Formatierung läuft. Bitte warten...";
+{Importing} = "Importiert...";
+{ImportAll} = "Alle";
+{ImportTrackN} = "Import von Titel %i...";
+{ImportPhotoN} = "Import von Foto %i...";
+
+{CopyComplete} = "Kopieren erfolgreich.";
+{CopyCancelled} = "Kopieren abgebrochen.";
+{CopyFailed} = "Kopie konnte nicht erstellt werden.";
+{MoveComplete} = "Verschieben erfolgreich.";
+{MoveCancelled} = "Verschieben abgebrochen";
+{MoveFailed} = "Verschieben gescheitert.";
+{DeleteComplete} = "Löschen erfolgreich.";
+{DeleteCancelled} = "Löschvorgang abgebrochen";
+{DeleteFailed} = "Löschen gescheitert.";
+{RenameComplete} = "Umbenennen erfolgreich.";
+{RenameCancelled} = "Umbenennen abgebrochen";
+{RenameFailed} = "Objekt konnte nicht umbenannt werden.";
+{RestoreInfoLoading} = "Aktualisierung der Daten läuft...";
+{RestoreInfoFailed} = "Aktualisierung gescheitert";
+{ImportExist} = "Ein gleichnamiges Album existiert bereits. Bei Fortsetzung des Importiervorgangs wird das vorhergehende Album überschrieben.";
+{ImportComplete} = "Importieren erfolgreich.";
+{ImportCancelled} = "Importieren abgebrochen";
+{ImportFailed} = "Importieren gescheitert.";
+{ImpFailed.SomeContent...} = "Einige Inhalte konnten nicht importiert werden.";
+{ImpFailed.ContentsOfDisc...} = "Der Inhalt dieser CD kann nicht importiert werden.";
+
+{DoNotTurnOff} = "Bitte Konsole nicht abschalten.";
+{NoOffOrRemCD} = "Konsole nicht abschalten und die CD nicht entfernen.";
+{NoOffOrRemMS} = "Konsole nicht abschalten und den Memory Stick nicht entfernen.";
+{CheckMSInserted} = "Vergewissern Sie sich, dass der Memory Stick eingerastet ist.";
+
+{CheckingForSpaceHD} = "Nach freiem Speicher auf dem Festplattenlaufwerk suchen…";
+{NotEnoughSpaceHD} = "Auf dem Festplattenlaufwerk ist nicht ausreichend Speicherplatz verfügbar.";
+{NotEnoughSpace} = "Nicht genügend Speicherplatz.";
+
+{DeleteOldFiles} = "Löschen Sie überflüssige\nDatenobjekte.";
+
+{ContinueQuestion} = "Möchten Sie fortfahren?";
+{CancelImportQuestion} = "Der Importiervorgang wird abgebrochen.\nMöchten Sie fortfahren?";
+
+{DeletingAllPhotos} = "Alle Fotos dieses Albums werden gelöscht.";
+{DeletingAllMovies} = "Alle Filme dieses Albums werden gelöscht.";
+{DeletingAllTracks} = "Alle Titel dieses Albums werden gelöscht.";
+{DeletingPhoto} = "Foto wird gelöscht.";
+{DeletingMovie} = "Film wird gelöscht.";
+{DeletingTrack} = "Titel wird gelöscht.";
+
+{NoFiles} = "Kein Titel für Import verfügbar.";
+{CreateAlbum} = "Neu";
+{SelectImportDest} = "Wählen Sie ein Album\nfür den Import.";
+
+{NewAlbum} = "Neues Album";
+
+{MaxAlbums} = "Es können keine weiteren Alben erstellt werden.\nWählen Sie ein anderes Album.";
+{SelectAlbum} = "Wählen Sie ein Album.";
+{MaxTrack} = "Importvorgang abgeschlossen. Einige Titel konnten nicht\nimportiert werden, weil die Anzahl\nder Titel über 99 hinausgeht.";
+
+{TooManyTracks} = "Dieses Album enthält zu viele Titel.";
+{NoTrack} = "Es sind keine Titel zum Abspielen vorhanden.";
+{NoNextTrack} = "Kein Titel verfügbar.";
+{NoPreviousTrack} = "Kein Titel verfügbar.";
+{NoNextData} = "Keine Daten verfügbar.";
+{NoPreviousData} = "Keine Daten verfügbar.";
+{EmptyAlbum} = "Dieses Album enthält nicht genügend Fotos für eine Diashow.";
+
+{FormatMS} = "Alle Daten auf dem Memory Stick\nwerden beim Formatieren gelöscht.";
+
+{DelTrackQuestion} = "Titel wird gelöscht. Möchten Sie fortfahren?";
+
+{ShowPhoto} = "Anzeigen";
+{RotateL} = "Nach links drehen";
+{RotateR} = "Nach rechts drehen";
+{Random} = "Zufall";
+{UseAsIcon} = "Als Symbol verwenden";
+
+{Err.PhotoNotSupported} = "Foto kann nicht angezeigt werden.";
+
+{Show.AddToShow} = "Zu Show hinzufügen";
+
+{Show.NoFiles} = "Kein Objekt zum Hinzufügen zur Show vorhanden.";
+{Show.Checking} = "Prüft freien Festplattenspeicher.\nBitte warten...\nBitte Konsole nicht abschalten.";
+{Show.NoSpace} = "Es ist zu wenig freier Speicherplatz auf dem Festplattenlaufwerk vorhanden.\nLöschen Sie überflüssige\nDatenobjekte.";
+{Show.NewAlbum} = "Neu";
+{Show.Destination} = "Wählen Sie eine Show, der Sie etwas hinzufügen möchten.";
+{Show.MaxAlbums} = "Es können keine weiteren Shows erstellt werden.\nWählen Sie eine andere Show.";
+{Show.MaxAlbums.Exit} = "Wählen Sie eine Show.";
+{Show.TooManyitems} = "Hinzufügen zur Show fehlgeschlagen.\nShow enthält zu viele Objekte.";
+{Show.NewDstInvalid} = "Der eingegebene Name wird bereits benutzt oder kann nicht verwendet werden.\nÄndern Sie den Namen der Show.";
+{Show.Processing} = "Hinzufügen…\nKonsole nicht abschalten und Speichermedien nicht entfernen.";
+{Show.ProcessingAll} = "Alle";
+{Show.ProcessingItem} = "Konsole nicht abschalten und\nSpeichermedien nicht entfernen.";
+{Show.Finished} = "Hinzufügen erfolgreich.";
+{Show.ImportError} = "Hinzufügen des Objekts fehlgeschlagen\nEinige Inhalte konnten nicht hinzugefügt werden.";
+{Show.MaxItem} = "Hinzufügen zur Show beendet. Einige Objekte konnten nicht\nhinzugefügt werden, da bereits\n99 Objekte in der Show vorhanden sind.";
+{Show.Cancel} = "Hinzufügen zur Show wird abgebrochen. Möchten Sie fortfahren?";
+{Show.ItemName} = "Objektname";
+{Show.FileType} = "Dateityp";
+{Show.RunTime} = "Ausführungszeit";
+{Show.Location} = "Speicherort";
+
+{ImpCD_str16} = "Importvorgang läuft... Bitte Konsole nicht abschalten.";
+{ImpCD_str17} = "Titel des Albums ändern.";

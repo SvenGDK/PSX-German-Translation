@@ -1,0 +1,12 @@
+<?dic version="1.0" language="jp" size="11"?>
+{MENU} = "TV SETTING";
+{TITLE} = "TV MANUAL SETTING";
+{CONFIRM} = "CONFIRM";
+{CANCEL} = "CANCEL";
+{SaveConfirmDialog_1} = "これまでの設定を保存しますか？";
+{SaveConfirmDialog_2} = "保存しない場合、変更前の設定に戻ります。";
+{SaveWaitingDialog_1} = "チャンネル設定を保存中です。";
+{SaveWaitingDialog_2} = "しばらくお待ちください。";
+{EditStopConfirmDialog_1} = "録画予約開始時刻まで10分を切りました。";
+{EditStopConfirmDialog_2} = "録画予約開始時刻になるとキャンセルして終了します。";
+{EditStopConfirmDialog_3} = "ここで手動チャンネル設定を中止しますか？";

@@ -1,0 +1,14 @@
+<?dic version="1.0" language="jp" size="13"?>
+{MENU} = "TV Einstellungen";
+{TITLE} = "TV Manuelle Einstellungen";
+{FINETUNE} = "Kanal-Feinabstimmung";
+{CONFIRM} = "Bestätigen";
+{CANCEL} = "Abbrechen";
+{DIALOG_CONFIRM} = "Bestätigen";
+{SAVECONFIRMDIALOG_TEXT} = "Einstellungen speichern. \nSind Sie sicher?";
+{SAVEWAITINGDIALOG_TEXT} = "Kanaleinstellungen speichern. \nBitte warten Sie einen Moment.";
+{RECSTANDBYDIALOG_TEXT} = "Weniger als 10 Minuten bis zum Beginn der Aufnahme. \nAbbrechen des aktuellen Vorgangs.";
+{INVALIDVALUEDIALOG_TEXT} = "Der von Ihnen eingegebene Empfangskanal ist ungültig.";
+{GUIDECHEXISTDIALOG_TEXT} = "Die Führungskanäle überlappen sich. \nÜberprüfen Sie den Einstellungswert.";
+{EPGHOSTCHANGEDIALOG_TEXT} = "Wenn Sie diesen Kanal wechseln, können Sie möglicherweise den Programmführer oder \nOmakase Maru Recording nicht verwenden. \nSind Sie sicher?";
+{EPGSTANDBYDIALOG_TEXT} = "Es werden in Kürze Programminformationen empfangen. \nAbbrechen des aktuellen Vorgangs.";

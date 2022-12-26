@@ -1,0 +1,16 @@
+<?dic version="1.0" language="jp" size="11"?>
+{Main_Title} = "Allgemeine Einstellungen";
+{Title_SettingStart} = "Einstellung des Festplattenbereichs";
+{HDD_YES} = "Ja";
+{HDD_NO} = "Nein";
+{HDD_EXEC} = "Ausführen";
+{HDD_CANCEL} = "Abbrechen";
+{Message_Cancel} = "Einstellen des Festplattenbereichs abbrechen. \nSind Sie sicher?";
+{Message_RecStanby} = "Weniger als 10 Minuten bis zum Beginn der Aufnahme. \nAbbrechen des aktuellen Vorgangs.";
+{Message_EPGStanby} = "Es werden in Kürze Programminformationen empfangen. \nAbbrechen des aktuellen Vorgangs.";
+{Message_Warning0}  = "Wenn Sie den HDD-Bereich festlegen,\nwerden die folgenden auf der Festplatte gespeicherten Inhalte gelöscht. \nSind Sie sicher?";
+{Message_Warning1}  = "・Videos
+・Musik
+・Foto
+・Spiele, die Festplattenspeicher verwenden
+・Programmführerdaten";

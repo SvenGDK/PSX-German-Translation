@@ -1,0 +1,22 @@
+<?dic version="1.0" language="jp" size="21"?>
+{Main_Title} = "Allgemeine Einstellungen";
+{Title_SettingStart} = "Werkseinstellungen wiederherstellen";
+{ENTER} = "Bestätigen";
+{BACK} = "Zurück";
+{CANCEL} = "Abbrechen";
+{CLOSE} = "Schließen";
+{Stop} = "Abbrechen";
+{NStop} = "Nicht abbrechen";
+{cell0_text0} = "Setzt alle Einstellungen auf die Werkseinstellungen zurück. \nSind Sie sicher?";
+{YES} = "Ja";
+{NO} = "Nein";
+{cell1_text0} = "Auf Werkseinstellungen zurücksetzen.";
+{cell1_text1} = "Schalten Sie den Strom während der Ausführung nicht aus.";
+{cell1_text2} = "Fortschritt";
+{cell2_text0} = "Auf Werkseinstellungen zurückgesetzt.";
+{Message_Cancel} = "Das Zurücksetzen auf Werkseinstellungen abbrechen. \nSind Sie sicher?";
+{EXEC} = "Ausführen";
+{NO_EXEC} = "Nicht ausführen";
+{Message_RecStanby} = "Weniger als 10 Minuten bis zum Beginn der Aufnahme. \nAbbrechen des aktuellen Vorgangs.";
+{Message_EPGStanby} = "Es werden in Kürze Programminformationen empfangen. \nAbbrechen des aktuellen Vorgangs.";
+{Dialog_Warning} = "Löschen Sie die aktuellen Einstellungen und stellen Sie die Werkseinstellungen wieder her. \nSind Sie sicher? \n\nWenn Sie dies ausführen, werden auch die Daten des Programmführers gelöscht.";

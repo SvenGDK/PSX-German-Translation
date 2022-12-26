@@ -1,0 +1,6 @@
+<?dic version="1.0" language="jp" size="5"?>
+{MENU} = "TV-Einstellungen";
+{TITLE} = "BS-Antennenpegelanzeige";
+{CANCEL} = "Abbrechen";
+{RECSTANDBYDIALOG_TEXT} = "Weniger als 10 Minuten bis zum Beginn der Aufnahme. \nAbbrechen des aktuellen Vorgangs.";
+{EPGSTANDBYDIALOG_TEXT} = "Programminformationen werden abgerufen. \nAbbrechen des aktuellen Vorgangs.";

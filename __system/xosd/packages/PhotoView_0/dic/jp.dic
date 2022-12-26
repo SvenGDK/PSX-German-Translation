@@ -1,0 +1,23 @@
+<?dic version="1.0" language="jp" size="19" ?>
+
+
+
+{Label_Previous_men2} = "Vorherigen";
+{Label_Next_men2} = "Nächsten";
+{Label_Play_men2} = "Wiedergabe";
+{Label_Pause_men2} = "Pause";
+{Label_Stop_men2} = "Stopp";
+{Label_RotLeft_men1} = "Nach links drehen";
+{Label_RotLRight_men1} = "Nach rechts drehen";
+{Label_Random_men1} = "Zufall";
+{Label_BT_men1} = "Als Symbol verwenden";
+{Label_EMS_men1} = "Exportieren";
+{Label_Import_men1} = "Importieren";
+{Label_Delete_men1} = "Löschen";
+{Label_Display_men1} = "Informationen";
+{no_next_data} = "Keine Daten verfügbar.";
+{no_prev_data} = "Keine Daten verfügbar.";
+{empty_album} = "Diashow ist für dieses Album nicht verfügbar.";
+{thumbnail_jpeg} = "Als Albumhülle registriert.";
+{thumbnail_mpeg} = "Als Albumhülle registriert.";
+{NotSupported} = "Dieses Foto kann nicht verwendet werden.";

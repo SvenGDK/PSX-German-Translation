@@ -1,0 +1,9 @@
+﻿<?dic version="1.0" language="jp" size="5" ?>
+
+{PhoSet.Label} = "Foto-Einstellungen";
+
+{PhoSet.Speed} = "Diashow-Tempo";
+
+{PhoSet.Speed.0} = "Langsam";
+{PhoSet.Speed.1} = "Mittel";
+{PhoSet.Speed.2} = "Schnell";

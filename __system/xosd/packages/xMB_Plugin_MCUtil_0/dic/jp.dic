@@ -1,0 +1,12 @@
+﻿<?dic version="1.0" language="jp" size="8" ?>
+
+
+
+{MC_Utility} = "Memory Card Verwaltung";
+{MC_Create_Folder} = "Ordner erstellen";
+{MC_Copy}="Kopieren";
+{MC_Move}="Verschieben";
+{MC_Delete}="Löschen";
+{MC_Rename}="Umbenennen";
+{MC_Information}="Informationen";
+{MC_Format}="Formatieren";

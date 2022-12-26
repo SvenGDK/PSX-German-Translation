@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<App name="ConfigTVChannelAuto" focus="ModifyFocus" native="ConfigTVChannelAuto/ConfigTVChannelAuto" z_depth="0" visible="0">
+  <Dic name="ConfigTVChannelAuto" filepath="pack:ConfigTVChannelAuto/0.1.0/dic" default="yes"></Dic>
+  <String name="page_guide0" str="Automatische Kanaleinstellung" visible="0"></String>
+  <String name="page_guide1" str="Automatische Kanaleinstellung" visible="0"></String>
+  <String name="page_guide2" str="Automatische Kanaleinstellung" visible="0"></String>
+  <Component name="WizardList" x="-360" y="-240">
+    <!-- No.0 Automatische Kanaleinstellung /-->
+    <Component name="cell0" x="720" y="0" rgba="D0D0D0FF" visible="0"></Component>
+    <!-- No.1 自動チャンネル設定中画面 /-->
+    <Component name="cell1" x="720" y="0" rgba="D0D0D0FF" visible="0">
+      <Component name="text" x="360" y="160">
+        <Text name="text0" str="Automatische Kanaleinstellung läuft." x="0" y="0" size="16" alignment="center"></Text>
+        <Text name="text1" str="Schalten Sie das Gerät während der Einstellung nicht aus." x="0" y="30" size="16" alignment="center"></Text>
+        <Text name="text2" str="Fortschritt" x="-220" y="80" size="16" alignment="center"></Text>
+        <Text name="prog_ch" str="  " x="200" y="-60" size="14" alignment="left"></Text>
+        <Text name="prog" str="  " x="200" y="120" size="14" alignment="center"></Text>
+      </Component>
+      <Component name="slider_bar" x="160" y="255">
+        <Component name="bar" x="180" y="0"></Component>
+      </Component>
+    </Component>
+  </Component>
+  <Component name="tool_item">
+    <String name="TopTitle" str="TV-Einstellungen"></String>
+    <!-- 決定 /-->
+    <String name="GuideConfirm" str="{ConfigTVChannelAuto::ENTER}"></String>
+    <!-- CANCEL /-->
+    <String name="GuideBack" str="{ConfigTVChannelAuto::BACK}"></String>
+    <!-- CANCEL /-->
+    <String name="GuideCancel" str="{ConfigTVChannelAuto::CANCEL}"></String>
+    <!-- CANCEL /-->
+    <String name="GuideClose" str="{ConfigTVChannelAuto::CLOSE}"></String>
+  </Component>
+</App>

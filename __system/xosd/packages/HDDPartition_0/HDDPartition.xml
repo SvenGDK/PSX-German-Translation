@@ -1,0 +1,130 @@
+<?xml version="1.0"?>
+<App name="HDDPartition" native="HDDPartition/HDDPartition" focus="ScreenList">
+
+	<Dic name="HDDPartition" filepath="pack:HDDPartition/0.1.0/dic" default="yes" />
+
+	<Dll name="xText/xText" version="0.1.0"/>
+	<Dll name="xStr/xStr" version="0.1.0"/>
+	<Dll name="xSelector/xSelector" version="0.1.0"/>
+	<Dll name="xButton/xButton" version="0.1.0"/>
+	<Dll name="xBitmap/xBitmap" version="0.1.0"/>
+	<Dll name="xBitmap3x3/xBitmap3x3" version="0.1.0"/>
+	<Dll name="xPrim/xPrim" version="0.1.0"/>
+
+	<Bitmap name="bg" file="art/wizard_bg.png" x="0" y="0" w="720" h="480"/>
+
+	<Anim name="Anim_SlideLeftIn" loop="no">
+		<AnimSegment length="100" loop="no" duration="300" curve="0">
+			<Channel type="T" delta="0" closed="yes" loop="no">
+				<Frame time="0" x="720"/>
+				<Frame time="99" x="0"/>
+			</Channel>
+		</AnimSegment>
+	</Anim>
+
+	<Anim name="Anim_SlideLeftOut" loop="no">
+		<AnimSegment length="100" loop="no" duration="300" curve="0">
+			<Channel type="T" delta="0" closed="yes" loop="no">
+				<Frame time="0" x="0"/>
+				<Frame time="99" x="-720"/>
+			</Channel>
+		</AnimSegment>
+	</Anim>
+
+	<Anim name="Anim_SlideRightIn" loop="no">
+		<AnimSegment length="100" loop="no" duration="300" curve="0">
+			<Channel type="T" delta="0" closed="yes" loop="no">
+				<Frame time="0" x="-720"/>
+				<Frame time="99" x="0"/>
+			</Channel>
+		</AnimSegment>
+	</Anim>
+
+	<Anim name="Anim_SlideRightOut" loop="no">
+		<AnimSegment length="100" loop="no" duration="300" curve="0">
+			<Channel type="T" delta="0" closed="yes" loop="no">
+				<Frame time="0" x="0"/>
+				<Frame time="99" x="720"/>
+			</Channel>
+		</AnimSegment>
+	</Anim>
+
+	<Anim name="Anim_FadeIn" loop="no">
+		<AnimSegment length="100" loop="no" duration="300" curve="0">
+			<Channel type="C" delta="0" closed="yes" loop="no">
+				<Frame time="0" a="0.0"/>
+				<Frame time="99" a="1.0"/>
+			</Channel>
+		</AnimSegment>
+	</Anim>
+
+	<Component name="ScreenList" x="0" y="-240" z="0" rot_x="0" rot_y="0" rot_z="0" visible="1">
+
+		<Component name="ScreenArrows" y="245">
+			<Bitmap name="ArrowLeft" file="art/GT000020.tga" x="-300" y="-5" w="28" h="30" rot_z="0.5" visible="0"/>
+			<Bitmap name="ArrowRight" file="art/GT000020.tga" x="290" y="-5" w="28" h="30" visible="0"/>
+		</Component>
+
+		<Component name="SelectionArrows" x="0" alignment="center" visible="0">
+			<Bitmap file="art/GT000020.tga" x="98" y="-5" w="14" h="15" rot_z="0.5"/>
+			<Bitmap file="art/GT000020.tga" x="-100" y="-5" w="14" h="15"/>
+		</Component>
+
+
+		<Component name="Screen.0" x="720" y="0" visible="1">   <!--Select Language -->
+
+			<Text name="BB_CONFIRM" str="Bestätigen" visible="0" />
+			<Text name="BB_CANCEL" str="Zurück" visible="0"/>
+
+			<Component name="text0" x="-230" y="208">
+				<Text name="text1" str="Führen Sie die HDD-Bereichseinstellung aus und ändern Sie den Spielbereich."                  y="0" size="16" alignment="left" />
+				<Text name="text2" str="Bei der Ausführung wird der gesamte Inhalt der Festplatte gelöscht."         y="24" size="16"  alignment="left" />
+				<Text name="text3" str="Aktueller Spielbereich:"                                     x="120" y="80" size="16" alignment="left" />
+				<Text name="SettingField" str="?GB"                                             x="270" y="80" />
+			</Component>
+		</Component>
+
+		<Component name="Screen.1" x="720" y="0" visible="1">
+
+			<Text name="EOS" visible="0" />
+
+			<Text name="BB_CONFIRM" str="Bestätigen" visible="0" />
+			<Text name="BB_CANCEL" str="Zurück" visible="0" />
+
+			<Component name="textA" x="-240" y="190">
+				<Text name="text0" str="Führen Sie die HDD-Bereichseinstellung aus und löschen Sie den Spielbereich."            x="0"  y="0" size="16" />
+				<Bitmap name="enter" file="art/BtnNav-EnterCir-917-wide.tga"                      x="32" y="20" />
+				<Text name="text1" str="Bitte betätigen."                                       x="68" y="24" size="16" />
+				<Text name="text2" str="Bitte beachten Sie"                                                   x="0"  y="72" size="16" />
+				<Text name="text3" str="Wenn Sie den Spielbereich löschen, können Sie einige Funktionen von Spielen,"     x="0"  y="96" size="16" />
+				<Text name="text4" str="Musik und Fotos auf der Festplatte nicht mehr verwenden." x="0"  y="120" size="16" />
+			</Component>
+
+			<Component name="textB" x="-180" y="170" visible="0">
+				<Text name="text0" str="Führen Sie die HDD-Bereichseinstellung aus und erstellen Sie einen Spielbereich."            x="0"  y="0" size="16" />
+				<Bitmap name="enter" file="art/BtnNav-EnterCir-917-wide.tga"                      x="32" y="20" />
+				<Text name="text1" str="Bitte betätigen."                                       x="68" y="24"  size="16" />
+				<Text name="text2" str="Bitte beachten Sie"                                                   x="0"  y="72"  size="16" />
+				<Text name="text3" str="Das Erstellen eines Spielbereichs verkürzt die Programmaufnahmezeit"                 x="0"  y="96"  size="16" />
+				<Text name="text4" str="um ca. 17 Stunden (bei SP-Aufnahme)."                         x="0"  y="120" size="16" />
+			</Component>
+		</Component>
+
+		<Component name="Screen.2" x="720" y="0" visible="1"> 
+
+			<Text name="BB_CONFIRM" str="Neustart" visible="0" />
+
+			<Component name="text0" x="-200" y="228">
+				<Bitmap name="enter" file="art/BtnNav-EnterCir-917-wide.tga"                x="32"  y="-4" />
+				<Text name="text" str="Zum Neustart drücken."                        x="68"  y="0" size="16" />
+				<Text name="text" str="Starten Sie nach dem Neustart die Festplattenspeichereinstellung."      x="0"   y="24" size="16" />
+			</Component>
+		</Component>
+
+	</Component>
+
+	<Component name="tool_item">
+		<String name="TopTitle"      str="Allgemeine Einstellungen" />
+		<String name="SubTitle"      str="Einstellung des Festplattenbereichs" />
+	</Component>
+</App>

@@ -1,0 +1,64 @@
+<?dic version="1.0" language="jp" size="57" ?>
+
+{NoItems} = "Keine Daten verfügbar";
+
+{SettingsLabel} = "Einstellungen";
+{PhotoLabel} = "Foto";
+{MusicLabel} = "Musik";
+{VideoLabel} = "Video";
+{TVLabel} = "TV";
+{FriendsLabel} = "Freunde";
+{GameLabel} = "Spiel";
+{VenusLabel} = "Netzwerkspieler";
+{ShoutcastLabel} = "Internet-Radio";
+{ShowLabel} = "Jetzt!";
+{PSBBLabel} = "PSBB";
+
+{Opt.Play} = "Wiedergabe";
+{Opt.Browse} = "Inhalt anzeigen";
+{Opt.Copy} = "Kopieren";
+{Opt.Move} = "Verschieben";
+{Opt.Import} = "Importieren";
+{Opt.Export} = "Exportieren";
+{Opt.CheckIn} = "Anmelden";
+{Opt.CheckOut} = "Abmelden";
+{Opt.Rename} = "Umbenennen";
+{Opt.RestoreInfo} = "Datenspeicherung wiederholen";
+{Opt.Save} = "Speichern";
+{Opt.Delete} = "Löschen";
+{Opt.Show} = "Anzeigen";
+{Opt.Options} = "Optionen";
+{Opt.Format} = "Format";
+{Opt.Information} = "Informationen";
+{Opt.AddToShow} = "Zu Favoriten hinzufügen";
+{Opt.MoveUp} = "Nach oben";
+{Opt.MoveDown} = "Nach unten";
+{Opt.SetCover} = "Als Cover einstellen";
+
+{Opt.Standard} = "Standard";
+{Opt.SortChannel} = "Kanäle sortieren";
+{Opt.ImportDate} = "Importiert";
+{Opt.Frequency} = "Frequenz";
+{Opt.Sort} = "Sortieren";
+{Opt.AllTrack} = "Alle Titel";
+{Opt.Artist} = "Künstler";
+{Opt.Genre} = "Genre";
+{Opt.Album} = "Album";
+{Opt.Date} = "Datum";
+{Opt.AllPhoto} = "Alle Fotos";
+{Opt.ImageType} = "Bildtyp";
+{Opt.ClipName} = "Name des Clips";
+
+{Storage.MCps1} = "Memory Card";
+{Storage.MCps2} = "Memory Card (PS)";
+{Storage.MS} = "Memory Stick™";
+{Storage.USB} = "USB-Speichermedium";
+{Storage.Camera} = "Digitalkamera";
+{Storage.AudioDev} = "Audiogerät";
+{Storage.NetMD} = "NetMD";
+{Storage.EyeToy} = "EyeToy™";
+{Storage.DataCD} = "Daten-CD";
+{Storage.AudioCD} = "Audio-CD";
+{Storage.DataDVD} = "DVD";
+
+{Err.CorruptedData} = "Beschädigte Daten";

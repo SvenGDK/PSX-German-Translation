@@ -1,0 +1,10 @@
+<?dic version="1.0" language="jp" size="9"?>
+{MENU} = „TV-Einstellungen“;
+{TITLE} = "BS-Kanal überspringen";
+{CONFIRM} = "Ausführen";
+{CANCEL} = "Abbrechen";
+{SAVECONFIRM_TEXT} = "Konfiguration speichern.\nSind Sie sicher?";
+{FINISH_TEXT} = "Kanaleinstellungen werden gespeichert.\nBitte warten.";
+{GUIDECHEXIST_TEXT} = "Überlappende Führungskanäle.\nBitte überprüfen Sie Ihre Einstellungen.";
+{RECSTANDBY_TEXT} = "Sie sind weniger als 10 Minuten von der geplanten Aufnahme entfernt.\nDer aktuelle Vorgang wird abgebrochen.";
+{EPGSTANDBY_TEXT} = "Beginne bald mit dem Abrufen von Programminformationen.\nAktueller Vorgang wird abgebrochen.";

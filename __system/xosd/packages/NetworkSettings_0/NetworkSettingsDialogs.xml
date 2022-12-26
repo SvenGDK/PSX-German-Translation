@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PSML2>
+  <Dll name="xButton/xButton" version="0.1.0"></Dll>
+  <Dll name="xText/xText" version="0.1.0"></Dll>
+  <Dll name="xBitmap/xBitmap" version="0.1.0"></Dll>
+  <Dll name="xBitmap3x3/xBitmap3x3" version="0.1.0"></Dll>
+  <Dll name="xEdit/xEdit" version="0.1.0"></Dll>
+  <Dll name="xPrim/xPrim" version="0.1.0"></Dll>
+  <Dll name="xStr/xStr" version="0.1.0"></Dll>
+  <Screen name="cancel" focus="Button2" visible="0">
+    <Text name="return" str="Netzwerkeinstellungen abbrechen." x="-120" y="-24"></Text>
+    <Text name="return" str="Ist dies OK?" x="-120" y="-0"></Text>
+    <Button name="Button1" x="-50" y="44" nav_right="Button2" alignment="center">
+      <FocusOn>
+        <Bitmap3x3 file="art/TextFocus.tga" corner_w="25" corner_h="17" w="96" h="40" x="0" y="-5" alignment="center"></Bitmap3x3>
+        <Text str="Ja" rgba="{*::TextRGBA.Hilited}" shadow="0" alignment="center"></Text>
+      </FocusOn>
+      <FocusOff>
+        <Text str="Ja" alignment="center" rgba="{*::TextRGBA.Normal}"></Text>
+      </FocusOff>
+    </Button>
+    <Button name="Button2" x="50" y="44" nav_left="Button1">
+      <FocusOn>
+        <Bitmap3x3 file="art/TextFocus.tga" corner_w="25" corner_h="17" w="96" h="40" x="0" y="-5" alignment="center"></Bitmap3x3>
+        <Text str="Nein" alignment="center" shadow="0" rgba="{*::TextRGBA.Hilited}"></Text>
+      </FocusOn>
+      <FocusOff>
+        <Text str="Nein" alignment="center" rgba="{*::TextRGBA.Normal}"></Text>
+      </FocusOff>
+    </Button>
+  </Screen>
+  <Screen name="save" visible="0">
+    <Text name="text0" str="Einstellungen konnten nicht gespeichert werden." x="0" y="0" size="16" alignment="center"></Text>
+  </Screen>
+  <Screen name="hdd_read" visible="0">
+    <Text name="text0" str="Einstellungen konnten nicht geladen werden." x="0" y="0" size="16" alignment="center"></Text>
+  </Screen>
+  <Screen name="hdd_broken" visible="0">
+    <Text name="text0" str="Während der Konfiguration ist ein Fehler aufgetreten." x="-187" y="-24" size="16"></Text>
+    <Text name="text0" str="Wenden Sie sich bitte an das Kundendienstzentrum." x="0" y="0" size="16" alignment="center"></Text>
+    <Text name="text1" str="Fehlernummer:" x="-187" y="24" size="16"></Text>
+    <Text name="err_num" str="" x="-87" y="24" size="16"></Text>
+  </Screen>
+  <Screen name="net_device" visible="0">
+    <Text name="text0" str="Während der Konfiguration ist ein Fehler aufgetreten." x="0" y="-36" size="16" alignment="center"></Text>
+    <Text name="text0" str="Nach dem Aus- und Wiedereinschalten der Maschine" x="-128" y="-12" size="16"></Text>
+    <Text name="text0" str="Bitte neu einstellen." x="-128" y="12" size="16"></Text>
+    <Text name="text1" str="Fehlernummer:" x="-128" y="36" size="16"></Text>
+    <Text name="err_num" str="" x="-28" y="36" size="16"></Text>
+  </Screen>
+  <Screen name="general" visible="0">
+    <Text name="text0" str="Es konnte keine Verbindung zum Netzwerk hergestellt werden." x="0" y="-12" size="16" alignment="center"></Text>
+    <Text name="err" str="Fehlernummer:" x="-153" y="12" size="16"></Text>
+    <Text name="err_num" str="" x="-53" y="12" size="16"></Text>
+  </Screen>
+  <Screen name="pppoe" visible="0">
+    <Text name="text0" str="Es kann keine Verbindung zum Netzwerk hergestellt werden." x="-220" y="-24" size="16"></Text>
+    <Text name="text1" str="Überprüfen Sie Ihre PPPoE-Benutzer-ID und Ihr Passwort." x="0" y="0" size="16" alignment="center"></Text>
+    <Text name="text2" str="Fehlernummer:" x="-220" y="24" size="16"></Text>
+    <Text name="err_num" str="" x="-120" y="24" size="16"></Text>
+  </Screen>
+  <Screen name="dnas" visible="0">
+    <Text name="text0" str="Ein &quot;DNAS&quot;-Fehler ist aufgetreten." x="0" y="-12" size="16" alignment="center"></Text>
+    <Text name="text1" str="Fehlernummer:" x="-125" y="12" size="16"></Text>
+    <Text name="err_num" str="" x="-25" y="12" size="16"></Text>
+    <Bitmap name="DNAS_NG" file="art/dnas_small_failA.tga" x="280" y="-120" z_depth="-4"></Bitmap>
+  </Screen>
+  <Screen name="dnas_server" visible="0">
+    <Text name="text0" str="&quot;DNAS&quot;-Serverfehler." x="0" y="-12" size="16" alignment="center"></Text>
+    <Text name="text1" str="Fehlernummer:" x="-118" y="12" size="16"></Text>
+    <Text name="err_num" str="" x="-18" y="12" size="16"></Text>
+    <Bitmap name="DNAS_NG" file="art/dnas_small_failA.tga" x="280" y="-120" z_depth="-4"></Bitmap>
+  </Screen>
+  <Screen name="dnas_auth" visible="0">
+    <Text name="text0" str="&quot;DNAS&quot;-Authentifizierungsfehler." x="0" y="-12" size="16" alignment="center"></Text>
+    <Text name="text1" str="Fehlernummer:" x="-101" y="12" size="16"></Text>
+    <Text name="err_num" str="" x="-1" y="12" size="16"></Text>
+    <Bitmap name="DNAS_NG" file="art/dnas_small_failA.tga" x="280" y="-120" z_depth="-4"></Bitmap>
+  </Screen>
+  <Screen name="dnas_busy" visible="0">
+    <Text name="text0" str="Derzeit kann der &quot;DNAS&quot;-Server nicht akzeptieren" x="0" y="-36" size="16" alignment="center"></Text>
+    <Text name="text1" str="du kannst nicht." x="-170" y="-12" size="16"></Text>
+    <Text name="text2" str="Warten Sie eine Weile und verbinden Sie sich dann erneut." x="-170" y="12" size="16"></Text>
+    <Text name="text3" str="Fehlernummer:" x="-170" y="36" size="16"></Text>
+    <Text name="err_num" str="" x="-70" y="36" size="16"></Text>
+    <Bitmap name="DNAS_NG" file="art/dnas_small_failA.tga" x="280" y="-120" z_depth="-4"></Bitmap>
+  </Screen>
+  <Screen name="dnas_early" visible="0">
+    <Text name="text0" str="Vor dem „DNAS“-Zertifizierungsdienstzeitraum von PSX." x="0" y="-12" size="16" alignment="center"></Text>
+    <Text name="text1" str="Fehlernummer:" x="-172" y="12" size="16"></Text>
+    <Text name="err_num" str="" x="-72" y="12" size="16"></Text>
+    <Bitmap name="DNAS_NG" file="art/dnas_small_failA.tga" x="280" y="-120" z_depth="-4"></Bitmap>
+  </Screen>
+  <Screen name="dnas_late" visible="0">
+    <Text name="text0" str="Der Zeitraum für den „DNAS“-Zertifizierungsservice von PSX ist abgelaufen." x="0" y="-12" size="16" alignment="center"></Text>
+    <Text name="text1" str="Fehlernummer:" x="-198" y="12" size="16"></Text>
+    <Text name="err_num" str="" x="-98" y="12" size="16"></Text>
+    <Bitmap name="DNAS_NG" file="art/dnas_small_failA.tga" x="280" y="-120" z_depth="-4"></Bitmap>
+  </Screen>
+  <Screen name="dnas_ended" visible="0">
+    <Text name="text0" str="Alle &quot;DNAS&quot;-Dienste wurden beendet." x="0" y="-12" size="16" alignment="center"></Text>
+    <Text name="text1" str="Fehlernummer:" x="-160" y="12" size="16"></Text>
+    <Text name="err_num" str="" x="-60" y="12" size="16"></Text>
+    <Bitmap name="DNAS_NG" file="art/dnas_small_failA.tga" x="280" y="-120" z_depth="-4"></Bitmap>
+  </Screen>
+  <Screen name="dnas_timeout" visible="0">
+    <Text name="text0" str="Zeitüberschreitung bei der Verbindung zum &quot;DNAS&quot;-Server." x="0" y="-24" size="16" alignment="center"></Text>
+    <Text name="text1" str="Warten Sie eine Weile und verbinden Sie sich dann erneut." x="-204" y="0" size="16"></Text>
+    <Text name="text2" str="Fehlernummer:" x="-204" y="24" size="16"></Text>
+    <Text name="err_num" str="" x="-104" y="24" size="16"></Text>
+    <Bitmap name="DNAS_NG" file="art/dnas_small_failA.tga" x="280" y="-120" z_depth="-4"></Bitmap>
+  </Screen>
+  <Screen name="dnas_connect" visible="0">
+    <Text name="text0" str="Verbindung zum „DNAS“-Server fehlgeschlagen." x="0" y="-12" size="16" alignment="center"></Text>
+    <Text name="text1" str="Fehlernummer:" x="-169" y="12" size="16"></Text>
+    <Text name="err_num" str="" x="-69" y="12" size="16"></Text>
+    <Bitmap name="DNAS_NG" file="art/dnas_small_failA.tga" x="280" y="-120" z_depth="-4"></Bitmap>
+  </Screen>
+  <Screen name="dnas_action" visible="0">
+    <Text name="text0" str="Der &quot;DNAS&quot;-Server funktioniert nicht richtig." x="0" y="-24" size="16" alignment="center"></Text>
+    <Text name="text1" str="Warten Sie eine Weile und verbinden Sie sich dann erneut." x="-186" y="0" size="16"></Text>
+    <Text name="text2" str="Fehlernummer:" x="-186" y="24" size="16"></Text>
+    <Text name="err_num" str="" x="-86" y="24" size="16"></Text>
+    <Bitmap name="DNAS_NG" file="art/dnas_small_failA.tga" x="280" y="-120" z_depth="-4"></Bitmap>
+  </Screen>
+  <Screen name="unipue_id" visible="0">
+    <Text name="text0" str="Eindeutiger ID-Fehler." x="0" y="-12" size="16" alignment="center"></Text>
+    <Text name="text1" str="Fehlernummer:" x="-94" y="12" size="16"></Text>
+    <Text name="err_num" str="" x="6" y="12" size="16"></Text>
+    <Bitmap name="DNAS_NG" file="art/dnas_small_failA.tga" x="280" y="-120" z_depth="-4"></Bitmap>
+  </Screen>
+  <Screen name="download" visible="0">
+    <Text name="text0" str="Download Fehler." x="0" y="-12" size="16" alignment="center"></Text>
+    <Text name="text1" str="Fehlernummer:" x="-102" y="12" size="16"></Text>
+    <Text name="err_num" str="" x="-2" y="12" size="16"></Text>
+    <Bitmap name="DNAS_NG" file="art/dnas_small_failA.tga" x="280" y="-120" z_depth="-4"></Bitmap>
+  </Screen>
+  <Screen name="device_info" visible="0">
+    <Text name="text0" str="Geräteinformationsfehler." x="0" y="-12" size="16" alignment="center"></Text>
+    <Text name="text1" str="Fehlernummer:" x="-85" y="12" size="16"></Text>
+    <Text name="err_num" str="" x="15" y="12" size="16"></Text>
+    <Bitmap name="DNAS_NG" file="art/dnas_small_failA.tga" x="280" y="-120" z_depth="-4"></Bitmap>
+  </Screen>
+  <Screen name="dns_find" visible="0">
+    <Text name="text0" str="DNS-Server nicht gefunden." x="-153" y="-24" size="16"></Text>
+    <Text name="text1" str="Bitte überprüfen Sie Ihre Netzwerkeinstellungen." x="0" y="0" size="16" alignment="center"></Text>
+    <Text name="text2" str="Fehlernummer:" x="-153" y="24" size="16"></Text>
+    <Text name="err_num" str="" x="-53" y="24" size="16"></Text>
+    <Bitmap name="DNAS_NG" file="art/dnas_small_failA.tga" x="280" y="-120" z_depth="-4"></Bitmap>
+  </Screen>
+  <Screen name="dns_response" visible="0">
+    <Text name="text0" str="In der Antwort des DNS-Servers ist ein Fehler aufgetreten." x="0" y="-24" size="16" alignment="center"></Text>
+    <Text name="text1" str="Bitte überprüfen Sie Ihre Netzwerkeinstellungen." x="-167" y="0" size="16"></Text>
+    <Text name="text2" str="Fehlernummer:" x="-167" y="24" size="16"></Text>
+    <Text name="err_num" str="" x="-67dns_response" y="24" size="16"></Text>
+    <Bitmap name="DNAS_NG" file="art/dnas_small_failA.tga" x="280" y="-120" z_depth="-4"></Bitmap>
+  </Screen>
+  <Screen name="dns" visible="0">
+    <Text name="text0" str="DNS Fehler." x="-160" y="-24" size="16"></Text>
+    <Text name="text1" str="Überprüfen Sie Ihre Netzwerkeinstellungen." x="0" y="0" size="16" alignment="center"></Text>
+    <Text name="text2" str="Fehlernummer:" x="-161" y="24" size="16"></Text>
+    <Text name="err_num" str="" x="-61" y="24" size="16"></Text>
+    <Bitmap name="DNAS_NG" file="art/dnas_small_failA.tga" x="280" y="-120" z_depth="-4"></Bitmap>
+  </Screen>
+  <Screen name="net_stop" visible="0">
+    <Text name="text0" str="Unterbrochene Netzwerkverbindung." x="0" y="-12" size="16" alignment="center"></Text>
+    <Text name="text1" str="Fehlernummer:" x="-136" y="12" size="16"></Text>
+    <Text name="err_num" str="" x="-36" y="12" size="16"></Text>
+    <Bitmap name="DNAS_NG" file="art/dnas_small_failA.tga" x="280" y="-120" z_depth="-4"></Bitmap>
+  </Screen>
+  <Screen name="communication" visible="0">
+    <Text name="text0" str="Kommunikationsfehler." x="-60" y="-12" size="16"></Text>
+    <Text name="text1" str="Fehlernummer:" x="0" y="12" size="16" alignment="center"></Text>
+    <Text name="err_num" str="" x="40" y="12" size="16"></Text>
+    <Bitmap name="DNAS_NG" file="art/dnas_small_failA.tga" x="280" y="-120" z_depth="-4"></Bitmap>
+  </Screen>
+  <Screen name="communication_timeout" visible="0">
+    <Text name="text0" str="Zeitüberschreitung bei der Kommunikation." x="-187" y="-24" size="16"></Text>
+    <Text name="text1" str="Warten Sie eine Weile und verbinden Sie sich dann erneut." x="0" y="0" size="16" alignment="center"></Text>
+    <Text name="text2" str="Fehlernummer:" x="-187" y="24" size="16"></Text>
+    <Text name="err_num" str="" x="-87" y="24" size="16"></Text>
+    <Bitmap name="DNAS_NG" file="art/dnas_small_failA.tga" x="280" y="-120" z_depth="-4"></Bitmap>
+  </Screen>
+  <Screen name="timeout" visible="0">
+    <Text name="text0" str="Die IP-Adresse konnte nicht automatisch eingestellt werden." x="-204" y="-96" size="16"></Text>
+    <Text name="text1" str="Bei Verwendung eines Routers PPPoE auf „Nicht verwenden“ setzen" x="-204" y="-60" size="16"></Text>
+    <Text name="text2" str="Bitte einstellen." x="-204" y="-36" size="16"></Text>
+    <Text name="text3" str="Wenn Sie ein Modem verwenden, setzen Sie das Modem zurück." x="0" y="-12" size="16" alignment="center"></Text>
+    <Text name="text4" str="Überprüfen Sie die folgenden Punkte." x="-204" y="12" size="16"></Text>
+    <Text name="text5" str="・Zwischen Hub/Router und Modem/ONU" x="-204" y="36" size="16"></Text>
+    <Text name="text6" str="Sie sind richtig verbunden." x="-187" y="60" size="16"></Text>
+    <Text name="text7" str="- Der richtige Kabeltyp ist angeschlossen." x="-204" y="84" size="16"></Text>
+    <Text name="text8" str="Fehlernummer:" x="-204" y="108" size="16"></Text>
+    <Text name="err_num" str="" x="-104" y="108" size="16"></Text>
+  </Screen>
+  <Screen name="proxy" visible="0">
+    <Text name="text0" str="Es liegt ein Fehler in Ihren Proxy-Einstellungen vor." x="0" y="-12" size="16" alignment="center"></Text>
+    <Text name="text1" str="Fehlernummer:" x="-143" y="12" size="16"></Text>
+    <Text name="err_num" str="" x="-43" y="12" size="16"></Text>
+  </Screen>
+  <Screen name="link_lost" visible="0">
+    <Text name="text0" str="Verbindungsstatus konnte nicht erkannt werden." x="-153" y="-60" size="16"></Text>
+    <Text name="text1" str="Überprüfen Sie die folgenden Punkte." x="-153" y="-24" size="16"></Text>
+    <Text name="text2" str="・Verbinden Sie dieses Gerät mit einem Hub/Router/Modem/ONU" x="0" y="0" size="16" alignment="center"></Text>
+    <Text name="text3" str="Sie sind richtig verbunden." x="-136" y="24" size="16"></Text>
+    <Text name="text4" str="- Der richtige Kabeltyp ist angeschlossen." x="-153" y="48" size="16"></Text>
+    <Text name="text5" str="Fehlernummer:" x="-153" y="72" size="16"></Text>
+    <Text name="err_num" str="" x="-53" y="72" size="16"></Text>
+  </Screen>
+  <Screen name="protocol" visible="0">
+    <Text name="text0" str="Protokollfehler." x="0" y="-12" size="16" alignment="center"></Text>
+    <Text name="text1" str="Fehlernummer:" x="-92" y="12" size="16"></Text>
+    <Text name="err_num" str="" x="8" y="12" size="16"></Text>
+  </Screen>
+  <Screen name="pppoe_general" visible="0">
+    <Text name="text0" str="Dies ist ein allgemeiner PPPoE-Fehler." x="0" y="-12" size="16" alignment="center"></Text>
+    <Text name="text1" str="Fehlernummer:" x="-125" y="12" size="16"></Text>
+    <Text name="err_num" str="" x="-25" y="12" size="16"></Text>
+  </Screen>
+  <Screen name="cancel_failed" visible="0">
+    <Text name="text0" str="Stornieren fehlgeschlagen." x="0" y="0" size="16" alignment="center"></Text>
+  </Screen>
+  <Screen name="ip" visible="0">
+    <Text name="text0" str="Überprüfen Sie den Eingabewert der IP-Adresse." x="0" y="0" size="16" alignment="center"></Text>
+  </Screen>
+  <Screen name="mask" visible="0">
+    <Text name="text0" str="Überprüfen Sie den Eingabewert der Netzmaske." x="0" y="0" size="16" alignment="center"></Text>
+  </Screen>
+  <Screen name="router" visible="0">
+    <Text name="text0" str="Überprüfen Sie den Eingabewert des Standardrouters." x="0" y="0" size="16" alignment="center"></Text>
+  </Screen>
+  <Screen name="dns1" visible="0">
+    <Text name="text0" str="Überprüfen Sie den Eingabewert von Primary DNS." x="0" y="0" size="16" alignment="center"></Text>
+  </Screen>
+  <Screen name="dns2" visible="0">
+    <Text name="text0" str="Überprüfen Sie den sekundären DNS-Eingabewert." x="0" y="0" size="16" alignment="center"></Text>
+  </Screen>
+  <Screen name="ip_mask" visible="0">
+    <Text name="text0" str="IP-Adresse oder Netzmaske" x="0" y="-12" size="16" alignment="center"></Text>
+    <Text name="text1" str="Bitte prüfen Sie den Eingabewert." x="-137" y="12" size="16"></Text>
+  </Screen>
+  <Screen name="ip_router" visible="0">
+    <Text name="text0" str="IP-Adresse oder Standardrouter" x="0" y="-12" size="16" alignment="center"></Text>
+    <Text name="text1" str="Bitte prüfen Sie den Eingabewert." x="-154" y="12" size="16"></Text>
+  </Screen>
+  <Screen name="router_mask" visible="0">
+    <Text name="text0" str="Standardrouter oder Netzmaske" x="0" y="-12" size="16" alignment="center"></Text>
+    <Text name="text1" str="Bitte prüfen Sie den Eingabewert." x="-160" y="12" size="16"></Text>
+  </Screen>
+  <Screen name="ip_input" visible="0">
+    <Text name="text0" str="Der eingegebene Wert ist ungültig." x="0" y="0" size="16" alignment="center"></Text>
+  </Screen>
+</PSML2>

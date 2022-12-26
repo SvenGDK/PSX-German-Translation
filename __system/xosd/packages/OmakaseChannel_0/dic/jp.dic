@@ -1,0 +1,9 @@
+<?dic version="1.0" language="jp" size="8"?>
+{MENU} = "TV-Einstellungen";
+{TITLE} = "Einstellungen des Omakase/Maru-Aufnahmekanals";
+{CONFIRM} = "Bestätigen";
+{CANCEL} = "Abbrechen";
+{DIALOG_CONFIRM} = "Bestätigen";
+{SAVECONFIRMDIALOG_TEXT} = "Einstellungen werden gespeichert.\nSind Sie sicher?";
+{RECSTANDBYDIALOG_TEXT} = "Sie haben weniger als 10 Minuten Zeit, um die geplante Aufnahme zu starten.\nDer aktuelle Vorgang wird abgebrochen.";
+{EPGSTANDBYDIALOG_TEXT} = "Beginne bald mit dem Abrufen von Programminformationen.\nAktueller Vorgang wird abgebrochen.";

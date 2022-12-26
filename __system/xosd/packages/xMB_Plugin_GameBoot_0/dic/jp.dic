@@ -1,0 +1,42 @@
+﻿<?dic version="1.0" language="jp" size="31" ?>
+
+
+
+{PS1_FORMAT} = "PlayStation®-Disc";
+{PS2_FORMAT} = "PlayStation®2-Disc";
+{PS1_HDDFORMAT} = "PlayStation®-Standardsoftware";
+{PS2_HDDFORMAT} = "PlayStation®2-Standardsoftware";
+
+{Setting.DiscSpeed} = "Lesegeschwindigkeit von\nPlayStation®-Discs";
+{Setting.DiscSpeed.0} = "Standard";
+{Setting.DiscSpeed.1} = "Schnelle Geschwindigkeit";
+{Setting.TextureMapping} = "PlayStation®-Spiel\nTextur-Mapping";
+{Setting.TextureMapping.0} = "Standard";
+{Setting.TextureMapping.1} = "Glatt";
+
+{Info.Title} = "Titel :";
+{Info.Distributor} = "Herausgeber :\t";
+{Info.ProdCode} = "Produktcode :\t";
+{Info.Type} = "Typ :";
+{Info.Created} = "Veröffentlichung :\t";
+{Info.Size} = "Größe :";
+
+{Unknown} = "Unbekannt";
+
+{Opt.Play} = "Starten";
+
+{PleaseWaitForGame} = "Bitte warten Sie, bis das Spiel gestartet wird.";
+{StartingGamePleaseWait} = "\tSpiel starten. Bitte warten...";
+
+{GameDelete.HDD1} = "Dieses Spiel von Ihrer Festplatte löschen.";
+{GameDelete.HDD2} = "Bitte bestätigen.";
+
+{Error.BadDisc} = "Datenträger konnte nicht gelesen werden.";
+{Error.DiscNoBoot} = "Diese Festplatte ist nicht bootfähig.";
+{Error.Illegal} = "Es handelt sich nicht um eine PlayStation®-\noder Playstation®2-Standard-Disc.";
+{Error.GameNoBoot} = "Dieses Spiel kann nicht gestartet werden.";
+{Error.DiscNeeded} = "Dieses Spiel benötigt zum Starten eine Disc.";
+{Error.InsertDisc} = "Bitte legen Sie eine Disc ein.";
+{Error.WrongDisc} = "Falsche CD.";
+{Error.Corrupt.0} = "Diese Daten sind beschädigt.";
+{Error.Corrupt.1} = "Bitte löschen.";

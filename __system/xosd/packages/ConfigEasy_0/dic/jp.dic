@@ -1,0 +1,32 @@
+<?dic version="1.0" language="jp" size="28"?>
+{Title_EasySetting} = "EasySetting";
+{Title_SettingStart} = "Starten";
+{Title_DisplayLanguage} = "Sprache";
+{Title_TunerSystem} = "Tuner System";
+{Title_Area} = "Ort";
+{Title_AutoChannel} = "Automatische Kanaleinstellung";
+{Title_Time} = "Uhrzeit einstellen";
+{Title_Omakase} = "Aufnahmeeinstellungen für Omakase";
+{Title_TVType} = "TV-Typ";
+{Title_Scart} = "Scart Einstellungen";
+{Title_OpticalOut} = "Optischer Digitalausgang";
+{Title_DolbyDegital} = "Dolby Digital";
+{Title_DTS} = "DTS";
+{Title_SettingList} = "Liste mit Einstellungen";
+{Title_SettingEnd} = "Einstellung beenden";
+{Message_Cancel} = "Bricht EasySetting ab. \nSind Sie sicher?";
+{Message_TVAutoChannel} = "Automatische Kanaleinstellung ausführen. \nSind Sie sicher?";
+{Message_ACSAutoDate} = "Automatische Zeiteinstellung ausführen. \nSind Sie sicher?";
+{Message_OmakaseDelete} = "Omakase wurde bereits eingestellt.
+Eine neue Einstellung löscht die aktuelle Einstellung.
+Omakase setzt die maximale Aufnahmezeit auf den Anfangswert zurück.
+Ist das ok?";
+{Message_AreaChange} = "Wenn Sie die Einstellungen ändern, können Sie möglicherweise\nden Programmführer oder Omakase/Maruroku nicht verwenden.\nSind Sie sicher?";
+{Message_RecStanby} = "Sie haben weniger als 10 Minuten Zeit, um den Aufnahmeplan zu starten.\nDer aktuelle Vorgang wird abgebrochen.";
+{Message_RecRun} = "Änderung während der Aufnahmevorbereitung oder Aufnahme nicht möglich.";
+{Message_EPGStanby} = "Beginne bald mit dem Erhalt von Programminformationen.\nAktueller Vorgang wird abgebrochen.";
+{Message_Time_Error} = "Der eingegebene Wert ist ungültig.";
+{Message_BS_Error} = "BS-Antenne konnte nicht eingeschaltet werden.";
+{Message_Wait} = "Bitte warten.";
+{Button_YES} = "Ja";
+{Button_NO} = "Nein";

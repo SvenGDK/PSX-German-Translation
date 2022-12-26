@@ -1,0 +1,60 @@
+<?dic version="1.0" language="jp" size="47"?>
+{PICTAPP_NAME} = "x-Pict Story bearbeiten";
+
+{PICT_CATEGORY_NAME} = "Foto";
+
+{PICT_SORT} = "Sortierreihenfolge ändern";
+{PICT_PLAY} = "Spielen";
+{PICT_MODIFY} = "Modifikation der Bildgeschichte";
+{PICT_CREATE} = "Bildgeschichte erstellen";
+{PICT_SLIDESHOW} = "Diashow";
+{PICT_CREATEVIDEO} = "Video erstellen";
+{PICT_RENAME} = "Umbenennen";
+{PICT_DELETE} = "Löschen";
+{PICT_INFO} = "Informationen";
+
+{PICT_CONFIRM} = "Bestätigen";
+{PICT_OPTION} = "Optionen";
+{PICT_PANEL} = "Bedienfeld";
+{PICT_CANCEL} = "Zurück";
+{PICT_CLOSE} = "Schließen";
+
+
+{PICT_ALBUMNAME} = "x-Bildgeschichte";
+{PICT_ALBUMNAME_SHORT} = "Bildergeschichte";
+{PICT_PRESETNAME} = "Beispiel einer x-Pict-Story";
+{PICT_PRESETNAME_SHORT} = "Beispielbildgeschichte";
+
+{PICT_DLG_BUTTONOK} = "Ja";
+{PICT_DLG_BUTTONNO} = "Nein";
+
+{PICT_DLG_INFOALBUMNAME} = "Albumname:";
+{PICT_DLG_INFOFILENUMS} = "Anzahl der Inhalte:";
+{PICT_DLG_INFONAME} = "Titelname:";
+{PICT_DLG_INFOAlBUMNAME} = "Albumname:";
+{PICT_DLG_INFOTRACKNAME} = "Titelname:";
+{PICT_DLG_INFOSIZE} = "Größe:";
+{PICT_DLG_INFOCDATE} = "Erstellungsdatum:";
+{PICT_DLG_INFODURATION} = "Dauer:";
+{PICT_DLG_INFOKIND} = "Dateiformat:";
+
+{PICT_DLG_NOINPUTNAME} = "Der eingegebene Name ist ungültig oder wird bereits verwendet.";
+{PICT_DLG_DUPLICATION} = "Der eingegebene Name wird bereits verwendet.";
+{PICT_DLG_ENTERNAME} = "Bitte ändern Sie Ihren Namen.";
+
+{PICT_DLG_NOUSECHARS} = "Die folgenden Zeichen sind nicht erlaubt.";
+{PICT_DLG_INVALIDATECHARS} = "/\\:*?\"<>|\'";
+
+{PICT_DLG_DELETESTART} = "Löschen.";
+{PICT_DLG_DELETECHECK} = "Sind Sie sicher?";
+{PICT_DLG_DELETENOW} = "Löschen.";
+{PICT_DLG_DELETECOMPLITE} = "Gelöscht.";
+{PICT_DLG_DELETEERROR} = "Fehler beim Löschen.";
+
+{PHOTO_DLG_DEVICEKIND} = "Disc-Typ:";
+{PHOTO_DLG_CDDATA} = "Daten-CD";
+{PHOTO_DLG_INFOFILENUMS} = "Fotos:";
+{PHOTO_DLG_PICTCREATED} = "Bildgeschichte:";
+{PHOTO_DLG_CREATED} = "Erstellt";
+{PHOTO_DLG_NOCREATE} = "ー";
+

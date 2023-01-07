@@ -1,0 +1,136 @@
+<?dic version="1.0" language="jp" size="92"?>
+
+#######################
+# -- MS Message Start
+#######################
+
+#
+# -- インストラクション
+#    => タイトル
+{MSDubTitle} = "HDD → MS-Überspielung";
+{MSDubTitle_Start} = "HDD → M.S. Dubbing / Check start";
+{MSDubTitle_MSChk} = "HDD → MS Dubbing / MS Check";
+{MSDubTitle_Format} = "HDD → MS-Überspielung / Format";
+{MSDubTitle_MovieDel} = "Festplatte → MS-Überspielen / Alle Filme löschen";
+{MSDubTitle_SelectTitle} = "HDD→MS Dubbing / Titel auswählen";
+{MSDubTitle_ConvCopyStart} = "HDD → M.S. Dubbing / Auftragsbestätigung schreiben";
+{MSDubTitle_ConvCopy} = "HDD → M.S. Überspielen/Schreiben";
+#    => ボタンヘルプ
+{HelpSelect} = "Auswählen";
+{HelpBack} = "Zurück";
+{HelpDiscont} = "Eingestellt";
+{HelpCancel} = "Abbrechen";
+{HelpOption} = "Optionen";
+{HelpClose} = "Schließen";
+
+#
+# -- M.S.ダビング開始確認ページ～フォーマット中or全動画削除中
+#
+{StartMsg1} = "Titel in Memory Stick-Videoformat";
+{StartMsg2} = "Konvertieren und auf Memory Stick überspielen.";
+{StartMsg3} = "Dubible Memory Stick einlegen";
+{StartMsg4} = "Bitte drücken.";
+{MSCheck} = "Speicherstick %3d% wird geprüft";
+{MSChkEnd} = "Memorystick-Prüfung abgeschlossen.";
+{MSFormat} = "Formatierung %3d%";
+{MSFmtEnd} = "Formatierung beendet.";
+{MSDelete} = "Lösche %3d%";
+{MSDelEnd} = "Löschen abgeschlossen.";
+
+#
+# -- タイトル選択画面
+#
+{Room} = "Freier Speicherplatz";
+{Str_KB} = "%d KB";
+{Str_MB} = "%d MB";
+{TtlSelect1} = " ";
+{TtlSelect2} = "Titel zum Überspielen auswählen";
+{TtlSelect3} = "Bitte drücken.";
+#    => タイトル情報
+{Sun} = "Son";
+{Mon} = "Mon";
+{Tue} = "Die";
+{Wed} = "Mit";
+{Thu} = "Do";
+{Fri} = "Fr";
+{Sat} = "Sa";
+
+#
+# -- オプション
+#
+{Opt_RecMode} = "Aufnahmemodus";
+{Opt_Audio} = "Audio";
+
+#
+# -- 変換・コピー開始
+#
+{CopyStart1} = "Der Befehl zum Schreiben auf den Memory Stick";
+{CopyStart2} = "Bitte bestätigen.";
+{CopyStart3} = "Drücken, um mit dem Überspielen zu beginnen.";
+{CopySumTime} = "Ungefähr bis zum Abschluss des Überspielens: %d Stunden %d Minuten";
+
+#
+# -- 変換・コピー実行中
+#
+{CopyMsg1} = "Titel synchronisieren.";
+{CopyMsg2} = "Speicherstick nicht entfernen.";
+{CopyMsg3} = "";
+{Prog} = "%d%";
+{Remain1} = "Ungefähr %d Minuten %d Sekunden bis zum Ende des Überspielens";
+{Remain2} = "Ungefähr %d Stunden %d Minuten bis zum Ende des Überspielens";
+{AllProg} = "ganz";
+{ConvStatus} = "Wird konvertiert...";
+{CopyStatus} = "Wird geschrieben...";
+{CancelStatus} = "Wird abgebrochen...";
+
+#
+# -- ダイアログメッセージ
+#
+{Func_Select} = "Ihr Memory Stick hat %dMB freien Speicherplatz.\nBitte wählen Sie eine Funktion aus.";
+{Chk_Delete} = "Memory Stick Videoformat\nAlle Titel löschen.\nSind Sie sicher?";
+{Chk_Format} = "Dadurch wird der Memory Stick formatiert.\nAlle auf den Memory Stick geschriebenen Daten werden gelöscht.\nSind Sie sicher?";
+{Chk_Format2} = "Das Formatieren löscht auch alle Daten,\ndie nicht auf dem Gerät sichtbar sind.\nSind Sie sicher?";
+{Chk_FormatErr} = "Dieser Memory Stick muss formatiert werden.\nAlle auf den Memory Stick geschriebenen Daten\nwerden gelöscht.\nSind Sie sicher?";
+{Chk_Writable} = "Der Memory Stick kann nicht mehr beschrieben werden.\nMöchten Sie alle Videos löschen oder formatieren?";
+{ConvCopy_End} = "Überspielen beendet.";
+{Guide_Cancel} = "Überspielen abbrechen.\nSind Sie sicher?";
+{ConvCopy_Cancel} = "Überspielen abgebrochen.";
+# 2005.04.05: YY: Abschaltunterstützung hinzugefügt
+{Chk_Shutdown} = "Möchten Sie nach dem Überspielen ausschalten?";
+{ConvCopy_End_Shutdown} = "Überspielen abgeschlossen.\nAusschalten.";
+
+#
+# -- ダイアログエラーメッセージ
+#
+{Err_Optimi} = "Optimiert.\nÜberspielen nicht möglich.";
+{Err_NoTitle} = "Kein Titel zum Überspielen.\nÜberspielen abgebrochen.";
+{Err_System} = "Ein Systemfehler ist aufgetreten.\nKopieren abgebrochen.";
+{Err_NoMemoStick} = "Kein Memory Stick.\nÜberspielen abgebrochen.";
+{Err_NotPoss} = "Dieser Speicherstick kann nicht verwendet werden.\nÜberspielen abgebrochen.";
+{Err_Lock} = "Der Memory Stick ist gesperrt.\nÜberspielen abgebrochen.";
+{Err_NoWrite} = "Kann aufgrund eines Memorystick-Fehlers nicht schreiben.\nKopieren abgebrochen.";
+{Err_ReadEx} = "Schreibgeschützter Speicherstick. Kopieren abgebrochen.";
+{Err_NoAccess} = "Nicht unterstützter Speicherstick.\nKopieren abgebrochen.";
+{Err_FailWrite1} = "Überspielen abgebrochen\ndwegen Schreibfehler.";
+{Err_FailWrite2} = "Schreiben fehlgeschlagen.\nDanach ist es schreibgeschützt.\nÜberspielen abgebrochen.";
+{Err_FailDelete} = "Fehler beim Löschen aller Videos\nÜberspielen abgebrochen.";
+{Err_FailFormat} = "Überspielen abgebrochen\ndwegen Formatfehler.";
+{Err_NoCopyTitle} = "Dieser Titel kann nicht überspielt werden.";
+{Err_Capacity} = "Dieser Titel kann nicht überspielt werden, da nicht genügend freier Speicherplatz auf dem Memory Stick vorhanden ist.";
+{Err_OverTitle} = "Kann keine weiteren Titel auswählen.";
+{Err_OverTime} = "Sie können keinen Titel mit einer bearbeiteten Gesamtspielzeit von \nmehr als %d Stunden auswählen.";
+{Err_FailConv} = "Überspielen abgebrochen,\nweil ​​Titelkonvertierung fehlgeschlagen ist.";
+{Err_MemoStick} = "Kein Memory Stick eingesetzt oder\nMemory Stick-Fehler.\nÜberspielen abgebrochen.";
+{Err_EmpName} = "Es können keine weiteren Titel\nauf den Memory Stick geschrieben werden.";
+{Err_RecTitle} = "Titel der Aufnahme.\nÜberspielen nicht möglich.";
+{Err_HDDCapa} = "Auf Ihrer Festplatte ist nicht genügend Speicherplatz vorhanden, um mit dem Überspielen zu beginnen.\nBitte beenden Sie das Überspielen und löschen Sie unerwünschte Titel\nvon Ihrer Festplatte.";
+#    => ダイアログ選択肢
+{Yes} = "Ja";
+{No} = "Nein";
+{Sel_Append} = "Anhängen";
+{Sel_Delete} = "Alle Videos löschen";
+{Sel_Format} = "Formatieren";
+
+#######################
+# -- MS Message End
+#######################

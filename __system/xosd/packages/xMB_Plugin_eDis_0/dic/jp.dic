@@ -1,0 +1,56 @@
+﻿<?dic version="1.0" language="jp" size="50" ?>
+
+{E-Distribution} = "UT-Network Download";
+{Agreement_title} = "Download-Zustimmung";
+{Login_title} = "Anmeldung zur Zahlung";
+{Download_title} = "Download von Informationen";
+{GameNameStr} = "Spiel";
+{Download_Str} = "Download";
+{Information_Str} = "Informationen";
+{GamePartitionError} = "Starten Sie das Spiel und wählen Sie vor dem Download\ndieses Pakets die Option “HDD aktivieren”.";
+{LoginScreen} = "Zum Fortfahren müssen Sie sich anmelden.";
+{LoginScreenUserName} = "Geben Sie Ihren Benutzernamen ein.";
+{LoginScreenPassword} = "Geben Sie Ihr vierstelliges Passwort ein.";
+{LoginProgress} = "Verarbeitet Anmeldedaten. Bitte warten...";
+{LoginError} = "Bei der Anmeldung ist ein Fehler aufgetreten.";
+{PurchaseError} = "Bei der Bearbeitung Ihres Kaufs ist ein Fehler aufgetreten.";
+{DownloadInfoDescription} = "Beschreibung";
+{DownloadInfoTotalSize} = "Gesamtgröße";
+{DownloadInfoVersionNumber} = "Versionsnummer";
+{DownloadInfoRelease Date} = "Veröffentlicht";
+
+{MemoryCardNotInserted} = "Keine Memory Card vorhanden.\nGeben Sie eine Memory Card (PS2) ein und versuchen Sie es erneut.";
+{MemoryCardNotFormated} = "Die Memory Card ist nicht formatiert.\nGehen Sie zu "Gespeichertes Datenmanagement", um sie zu formatieren.";
+{MemoryCardNoFreeSpace} = "Nicht genügend Speicherplatz auf der Memory Card vorhanden.\nGeben Sie eine Memory Card (PS2) mit ausreichend Speicherplatz ein.";
+{MemoryCardWrongCardType} = "Dies ist keine Memory Card (PS2).\nGeben Sie eine Memory Card (PS2) ein und versuchen Sie es erneut.";
+{MemoryCardFileExist} = "Eine gleichnamige Datei existiert bereits\nauf der Memory Card.\nMöchten Sie sie überschreiben?";
+
+{HDDNoHDD} = "Zum Download dieses Objekts benötigen Sie ein Festplattenlaufwerk.";
+{HDDNoFreeSpace} = "Es ist nicht genügend freier Speicherplatz auf dem Festplattenlaufwerk vorhanden.";
+{HDDFileExist} = "Eine gleichnamige Datei existiert bereits\nauf dem Festplattenlaufwerk.\nMöchten Sie sie ersetzen?";
+{HDDPartitionError} = "Starten Sie das Spiel und wählen Sie vor dem Download\ndie Option "HDD Aktivieren".";
+{BILLINGNotEnoughToken} = "Das Guthaben reicht nicht aus. Gehen Sie zum Konto-Manager, um Guthaben zu erwerben.";
+{BILLINGLoginFail} = "Anmeldung misslungen";
+{BILLINGLoginCancel} = "Anmeldung abgebrochen";
+{BILLINGPurchaseFail} = "Der Kaufvorgang konnte nicht abgeschlossen werden.";
+{BILLINGPurchaseAlready} = "Dieses Objekt wurde bereits erworben.";
+
+{DOWNLOADFail} = "Download konnte nicht abgeschlossen werden.";
+{DOWNLOADCANCEL} = "Download wurde abgebrochen.";
+{INSTALLFail} = "Installierung fehlgeschlagen";
+{NETWORKNotUp} = "Netzwerk ist gerade nicht verfügbar.";
+
+{SelectMC} = "UT-Please select Memory Card to Download";
+{DisagreeWarning} = "UT-If you Disagree, you will exit, Are you sure want to exit?";
+{InstallWarning} = "UT-Don't turn off the power or remove Memory Card";
+{ConnectingWarning} = "UT-Please wait till for network to connect";
+{Downloading} = "UT-Downloading...";
+{DownlOadError} = "UT-Download Error!";
+{PowerWarning} = "UT-Don't turn off the power";
+{InstallError} = "UT-Install Error!";
+{CancelDownload} = "UT-Are you sure you want to cancel download?";
+{Description} = "UT-Description";
+{TotalSize} = "UT-Total Size";
+{VersionNumber} = "UT-Version Number";
+{ReleaseDate} = "UT-Release Date";
+{Complete} = "UT-Complete!";

@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<PSML2>
+
+<Dll name="xBitmap/xBitmap" version="0.1.0" />
+<Dll name="xButton/xButton" version="0.1.0" />
+<Dll name="xText/xText" version="0.1.0" />
+<Dll name="xPrim/xPrim" version="0.1.0" />
+
+<Screen name="Warning" visible="0" z_depth="-1">
+	<!--Prim name="bgm" type="rect" rgba="000000D0" x="0" y="0" w="720" h="480" /-->
+	<Text name="text1" x="0" y="0" alignment="center"/>
+	<Text name="text2" x="0" y="20" alignment="center"/>
+</Screen>
+
+<Screen name="Thumbnail" visible="0" z_depth="-1" focus="BtnDone">
+	<!--Prim name="bgm" type="rect" rgba="000000D0" x="0" y="0" w="720" h="480" /-->
+	<Text name="text0" str="{videoplayer::Thumbnail1}" x="-20" y="-30" />
+	<Text name="text1" str="{videoplayer::Thumbnail2}" x="-20" y="-10" />
+	<Text name="text2" str="{videoplayer::Thumbnail3}" x="-20" y="10" />
+
+	<Bitmap name="Icon"  file="pack:pvrVideoApp/0.1.0/art/CP_Display.png" w="144" h="108" rgba="FFFFFFD0" x="-117.0"  y="-20.0" />
+
+	<Button name="BtnDone" x="-60" y="70" nav_right="BtnCancel">
+		<FocusOn>
+			<Bitmap3x3 file="pack:pvrVideoApp/0.1.0/art/TextFocus.tga" w="96" h="40" corner_w="25" corner_h="17"/>
+			<Text str="{videoplayer::YES}" y="5" rgba="{*::TextRGBA.Hilited}" alignment="center"/>
+		</FocusOn>
+		<FocusOff>
+			<Text str="{videoplayer::YES}" y="5" rgba="{*::TextRGBA.Normal}" alignment="center" />
+		</FocusOff>
+	</Button>
+	<Button name="BtnCancel" x="60" y="70" nav_left="BtnDone">
+		<FocusOn>
+			<Bitmap3x3 file="pack:pvrVideoApp/0.1.0/art/TextFocus.tga" w="96" h="40" corner_w="25" corner_h="17"/>
+			<Text str="{videoplayer::NO}" y="5" rgba="{*::TextRGBA.Hilited}" alignment="center" />
+		</FocusOn>
+		<FocusOff>
+			<Text str="{videoplayer::NO}" y="5" rgba="{*::TextRGBA.Normal}" alignment="center"/>
+		</FocusOff>
+	</Button>
+</Screen>
+
+<Screen name="Thumbnail_Overwrite" visible="0" z_depth="-1" focus="BtnDone">
+	<!--Prim name="bgm" type="rect" rgba="000000D0" x="0" y="0" w="720" h="480" /-->
+
+	<Text name="text1" str="{videoplayer::Thumbnail4}" x="-144" y="-20" alignment="left"/>
+	<Text name="text2" str="{videoplayer::Thumbnail5}" x="-144" y="0" alignment="left"/>
+
+	<Button name="BtnDone" x="-60" y="70" nav_right="BtnCancel">
+		<FocusOn>
+			<Bitmap3x3 file="pack:pvrVideoApp/0.1.0/art/TextFocus.tga" w="96" h="40" corner_w="25" corner_h="17"/>
+			<Text str="{videoplayer::YES}" y="5" rgba="{*::TextRGBA.Hilited}" alignment="center"/>
+		</FocusOn>
+		<FocusOff>
+			<Text str="{videoplayer::YES}" y="5" rgba="{*::TextRGBA.Normal}" alignment="center"/>
+		</FocusOff>
+	</Button>
+	<Button name="BtnCancel" x="60" y="70" nav_left="BtnDone">
+		<FocusOn>
+			<Bitmap3x3 file="pack:pvrVideoApp/0.1.0/art/TextFocus.tga" w="96" h="40" corner_w="25" corner_h="17"/>
+			<Text str="{videoplayer::NO}" y="5" rgba="{*::TextRGBA.Hilited}" alignment="center" />
+		</FocusOn>
+		<FocusOff>
+			<Text str="{videoplayer::NO}" y="5" rgba="{*::TextRGBA.Normal}" alignment="center"/>
+		</FocusOff>
+	</Button>
+</Screen>
+
+<Screen name="Deletion" visible="0" z_depth="-1" focus="BtnDone">
+	<!--Prim name="bgm" type="rect" rgba="000000D0" x="0" y="0" w="720" h="480" /-->
+	
+	<Text name="text1" str="{Thumbnail4}" x="-200" y="-80" />
+	<Button name="BtnDone" x="-60" y="70" nav_right="BtnCancel">
+		<FocusOn>
+			<Bitmap3x3 file="pack:pvrVideoApp/0.1.0/art/TextFocus.tga" w="96" h="40" corner_w="25" corner_h="17"/>
+			<Text str="Ausführen" y="5" rgba="{*::TextRGBA.Hilited}" alignment="center"/>
+		</FocusOn>
+		<FocusOff>
+			<Text str="Ausführen" y="5" rgba="{*::TextRGBA.Normal}" alignment="center"/>
+		</FocusOff>
+	</Button>
+	<Button name="BtnCancel" x="60" y="70" nav_left="BtnDone">
+		<FocusOn>
+			<Bitmap3x3 file="pack:pvrVideoApp/0.1.0/art/TextFocus.tga" w="96" h="40" corner_w="25" corner_h="17"/>
+			<Text str="Abbrechen" y="5" rgba="{*::TextRGBA.Hilited}" alignment="center" />
+		</FocusOn>
+		<FocusOff>
+			<Text str="Abbrechen" y="5" rgba="{*::TextRGBA.Normal}" alignment="center"/>
+		</FocusOff>
+	</Button>
+</Screen>
+
+
+
+<Screen name="Thumbnail_Success" visible="0" z_depth="-1">
+	<!--Prim name="bgm" type="rect" rgba="000000D0" x="0" y="0" w="720" h="480" /-->
+	<Text name="text1" str="{videoplayer::Registered as thumbnail.}" x="0" y="0" alignment="center"/>
+</Screen>
+
+<Screen name="Thumbnail_Protect" visible="0" z_depth="-1">
+	<!--Prim name="bgm" type="rect" rgba="000000D0" x="0" y="0" w="720" h="480" /-->
+	<Text name="text1" str="{videoplayer::Cannot reg: protect setup.1}" x="-104" y="-20" alignment="left"/>
+	<Text name="text2" str="{videoplayer::Cannot reg: protect setup.2}" x="-104" y="0" alignment="left"/>
+</Screen>
+
+<Screen name="Parental" visible="0" z_depth="-1" focus="BtnOk">
+	<!--Prim name="bgm" type="rect" rgba="000000D0" x="0" y="0" w="720" h="480" /-->
+	<Text name="text1" y="-25" alignment="center" />
+	<Button name="BtnOk" x="-60" y="30" nav_left="BtnCancel" nav_right="BtnCancel">
+		<FocusOn>
+			<Bitmap3x3 file="pack:pvrVideoApp/0.1.0/art/TextFocus.tga" w="96" h="40" corner_w="25" corner_h="17"/>
+			<Text str="{videoplayer::YES}" y="5" rgba="{*::TextRGBA.Hilited}" alignment="center"/>
+		</FocusOn>
+		<FocusOff>
+			<Text str="{videoplayer::YES}" y="5" rgba="{*::TextRGBA.Normal}" alignment="center"/>
+		</FocusOff>
+	</Button>
+	<Button name="BtnCancel" x="60" y="30" nav_left="BtnOk" nav_right="BtnOk">
+		<FocusOn>
+			<Bitmap3x3 file="pack:pvrVideoApp/0.1.0/art/TextFocus.tga" w="96" h="40" corner_w="25" corner_h="17"/>
+			<Text str="{videoplayer::NO}" y="5" rgba="{*::TextRGBA.Hilited}" alignment="center" />
+		</FocusOn>
+		<FocusOff>
+			<Text str="{videoplayer::NO}" y="5" rgba="{*::TextRGBA.Normal}" alignment="center"/>
+		</FocusOff>
+	</Button>
+</Screen>
+
+<Screen name="Mark_Set" visible="0" z_depth="-1" focus="BtnOk">
+	<!--Prim name="bgm" type="rect" rgba="000000D0" x="0" y="0" w="720" h="480" /-->
+	<Text name="text1" str="{videoplayer::Do you add the entry point?}" y="-20" alignment="center" />
+	<Button name="BtnOk" x="-60" y="74" nav_left="BtnCancel" nav_right="BtnCancel">
+		<FocusOn>
+			<Bitmap3x3 file="pack:pvrVideoApp/0.1.0/art/TextFocus.tga" y="-4" w="80" h="40" corner_w="25" corner_h="17"/>
+			<Text str="{videoplayer::YES}" rgba="{*::TextRGBA.Hilited}" alignment="center"/>
+		</FocusOn>
+		<FocusOff><Text str="{videoplayer::YES}" rgba="{*::TextRGBA.Normal}" alignment="center"/></FocusOff>
+	</Button>
+	<Button name="BtnCancel" x="60" y="74" nav_left="BtnOk" nav_right="BtnOk">
+		<FocusOn>
+			<Bitmap3x3 file="pack:pvrVideoApp/0.1.0/art/TextFocus.tga" y="-4" w="80" h="40" corner_w="25" corner_h="17"/>
+			<Text str="{videoplayer::NO}" rgba="{*::TextRGBA.Hilited}" alignment="center" />
+		</FocusOn>
+		<FocusOff><Text str="{videoplayer::NO}" rgba="{*::TextRGBA.Normal}" alignment="center"/></FocusOff>
+	</Button>
+</Screen>
+
+<Screen name="Mark_Set_Result" visible="0" z_depth="-1">
+	<!--Prim name="bgm" type="rect" rgba="000000D0" x="0" y="0" w="720" h="480" /-->
+	<Text name="text1" str="{videoplayer::Entry point is added.}" x="0" y="0" alignment="center"/>
+</Screen>
+
+</PSML2>

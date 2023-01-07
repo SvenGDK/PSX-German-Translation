@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<App name="UpdateCenter" native="UpdateCenter/UpdateCenter" focus="ScreenList">
+  <Dll name="xText/xText" version="0.1.0"></Dll>
+  <Dll name="xBitmap/xBitmap" version="0.1.0"></Dll>
+  <Dll name="xBitmap3x3/xBitmap3x3" version="0.1.0"></Dll>
+  <Dll name="xEdit/xEdit" version="0.1.0"></Dll>
+  <Dll name="xPrim/xPrim" version="0.1.0"></Dll>
+  <Dll name="xStr/xStr" version="0.1.0"></Dll>
+  <Dll name="xButton/xButton" version="0.1.0"></Dll>
+  <Dll name="xMemo/xMemo" version="0.1.0"></Dll>
+  <Bitmap name="bg" file="art/wizard_bg.png" x="0" y="0" w="720" h="480" visible="0"></Bitmap>
+  <Component name="ScreenList">
+    <Component name="Check" visible="0">
+      <Bitmap name="bg1" file="art/wizard_bg.png" x="0" y="0" w="720" h="480"></Bitmap>
+      <Text name="title" str="Update / Start des Updates prüfen" x="-720" y="480"></Text>
+      <Text name="text0" str="Starten Sie die Aktualisierung." x="0" y="-12" size="16" alignment="center"></Text>
+      <Bitmap name="confirm" file="art/BtnNav-EnterCir-917-wide.tga" x="-82" y="8"></Bitmap>
+      <Text name="text1" str="Bitte drücken." x="-50" y="12" size="16"></Text>
+    </Component>
+    <Component name="Checking" visible="0">
+      <Text name="title" str="Update / Software-Check" x="-720" y="480"></Text>
+      <Text name="text0" str="Suche nach der neuesten Software." x="0" y="-12" w="100" size="16" alignment="center"></Text>
+      <Text name="text1" str="Warten Sie mal." x="-145" y="12" size="16"></Text>
+    </Component>
+    <Component name="EulaShow" visible="0">
+      <Text name="title" str="Updates / Lizenz" x="-720" y="480"></Text>
+      <Text name="text0" str="Ich habe die neuste Software." x="-240" y="-146" size="16"></Text>
+      <Text name="text1" str="Bestätigen Sie den Inhalt der Lizenzvereinbarung," x="-240" y="-122" size="16"></Text>
+      <Bitmap name="right" file="art/arrow_R.tga" x="-40" y="-126"></Bitmap>
+      <Text name="text2" str="Bitte drücken." x="-30" y="-122" size="16"></Text>
+      <Text name="text3" str="Lizenzvereinbarung" x="-240" y="-86" size="16"></Text>
+      <Memo name="eula_memo" str="" rgba0="FFFFFFFF" x="-240" y="-70" h="225" w="480" buf_size="5120" font_size="16" read_only="1" have_scrollbar="1"></Memo>
+    </Component>
+    <Component name="EulaConfirm" x="704" y="0">
+      <Text name="title" str="Updates / Lizenz" x="-720" y="480"></Text>
+      <Text name="text0" str="Akzeptieren Sie die Lizenzvereinbarung?" x="0" y="-39" size="16" alignment="center"></Text>
+      <Bitmap3x3 name="focus" file="art/TextFocus.tga" corner_w="25" corner_h="17" w="132" h="40" x="0" y="10" alignment="center"></Bitmap3x3>
+      <Text name="disagree" str="Verschiedener Meinung sein" x="0" y="15" alignment="center"></Text>
+      <Text name="agree" str="sich einigen" x="-42" y="39"></Text>
+    </Component>
+    <Component name="EulaAgree" x="704" y="0">
+      <Text name="title" str="Bestätigung der Update-/Update-Ausführung" x="-720" y="480"></Text>
+      <Text name="text0" str="Führen Sie das Update aus." x="-188" y="-60" size="16"></Text>
+      <Bitmap name="confirm" file="art/BtnNav-EnterCir-917-wide.tga" x="-160" y="-40"></Bitmap>
+      <Text name="text3" str="Bitte drücken." x="-128" y="-36" size="16"></Text>
+      <Text name="text1" str="ohne das Gerät oder die Netzwerkverbindung auszuschalten" x="-188" y="-12" size="16"></Text>
+      <Text name="text2" str="Bitte fahren Sie fort." x="-188" y="12" size="16"></Text>
+      <Text name="text4" str="Während des Updates wird das Gerät neu gestartet." x="-188" y="36" size="16"></Text>
+      <Text name="text5" str="Die Aufnahmereservierung wird möglicherweise nicht korrekt durchgeführt." x="0" y="60" size="16" alignment="center"></Text>
+    </Component>
+    <Component name="Backup" visible="0">
+      <Text name="title" str="Aktualisieren / Sichern" x="-720" y="480"></Text>
+      <Text name="text1" str="Sichern Sie Ihre aktuelle Software." x="0" y="-24" size="16" alignment="center"></Text>
+      <Text name="text2" str="Überprüfen Sie die Stromversorgung und Netzwerkverbindung dieses Geräts." x="-187" y="0" size="16"></Text>
+      <Text name="text2" str="Bitte nicht schneiden." x="-187" y="24" size="16"></Text>
+    </Component>
+    <Component name="Dnas" visible="0">
+      <Text name="title" str="Aktualisieren / Installieren" x="-720" y="480"></Text>
+      <Text name="text0" str="&quot;DNAS&quot;-Zertifizierung in Bearbeitung." x="-128" y="-24" size="16"></Text>
+      <Text name="text1" str="Die Verarbeitung kann während der Authentifizierung nicht abgebrochen werden." x="0" y="0" size="16" alignment="center"></Text>
+      <Text name="text1" str="Warten Sie mal." x="-128" y="24" size="16"></Text>
+      <Bitmap name="DNAS_OK" file="art/dnas_small_basicA.tga" x="280" y="-120" z_depth="-4" alignment="center"></Bitmap>
+    </Component>
+    <Component name="Downloading" visible="0">
+      <Text name="title" str="Aktualisieren / Herunterladen" x="-720" y="480"></Text>
+      <Text name="text0" str="Herunterladen von Software." x=" 0" y="-72" size="16" alignment="center"></Text>
+      <Text name="text1" str="Überprüfen Sie die Stromversorgung und Netzwerkverbindung dieses Geräts." x="-160" y="-48" size="16"></Text>
+      <Text name="text2" str="Bitte nicht schneiden." x="-160" y="-24" size="16"></Text>
+      <Text name="downloading" str="wird heruntergeladen" x="-230" y="60" size="14"></Text>
+      <Text name="progress" str="" x="230" y="60" size="14" alignment="right"></Text>
+      <Slider name="prog_slider" value="0" x="0" y="80" w="450"></Slider>
+    </Component>
+    <Component name="Installing" visible="0">
+      <Text name="title" str="Aktualisieren / Installieren" x="-720" y="480"></Text>
+      <Text name="text0" str="Software installieren." x=" 0" y="-72" size="16" alignment="center"></Text>
+      <Text name="text1" str="Überprüfen Sie die Stromversorgung und Netzwerkverbindung dieses Geräts." x="-160" y="-48" size="16"></Text>
+      <Text name="text2" str="Bitte nicht schneiden." x="-160" y="-24" size="16"></Text>
+      <Text name="installing" str="installieren" x="-230" y="60" size="14"></Text>
+      <Text name="progress" str="" x="230" y="60" size="14" alignment="right"></Text>
+      <Slider name="prog_slider" value="0" x="0" y="80" w="450"></Slider>
+    </Component>
+    <Component name="EulaDisAgree" x="704" y="0">
+      <Text name="title" str="Updates / Lizenz" x="-720" y="480"></Text>
+      <Text name="text1" str="Sie haben die Lizenz nicht akzeptiert." x="0" y="-24" size="16" alignment="center"></Text>
+      <Text name="text2" str="Beenden Sie das Update." x="-136" y="0" size="16"></Text>
+      <Bitmap name="cross" file="art/BtnNav-Crs-917.png" x="-127" y="20"></Bitmap>
+      <Text name="text3" str="Bitte drücken." x="-115" y="24" size="16"></Text>
+    </Component>
+    <Component name="Restore" visible="0">
+      <Text name="title" str="Update-/Wiederherstellungsprozess" x="-720" y="480"></Text>
+      <Text name="text1" str="Während des Updates ist ein Fehler aufgetreten." x="0" y="-24" size="16" alignment="center"></Text>
+      <Text name="text1" str="Wiederherstellungsverarbeitung durchführen." x="-160" y="0" size="16"></Text>
+      <Text name="text2" str="Warten Sie mal." x="-160" y="24" size="16"></Text>
+    </Component>
+    <Component name="EndProcess" visible="0">
+      <Text name="title" str="Aktualisieren/Schließen" x="-720" y="480"></Text>
+      <Text name="text1" str="Ein Fehler ist aufgetreten" x="-128" y="-24" size="16"></Text>
+      <Text name="text1" str="Endbearbeitung." x="-128" y="0" size="16"></Text>
+      <Text name="text2" str="Schalten Sie dieses Gerät nicht aus." x="-128" y="24" size="16"></Text>
+    </Component>
+    <Component name="NoUpdate" visible="0">
+      <Text name="title" str="Update / Software-Check" x="-720" y="480"></Text>
+      <Text name="text0" str="Aktuelle Software ist die neueste Version." x="0" y="-24" size="16" alignment="center"></Text>
+      <Text name="text1" str="Beenden Sie das Update." x="-170" y="0" size="16"></Text>
+      <Bitmap name="cross" file="art/BtnNav-Crs-917.png" x="-162" y="20"></Bitmap>
+      <Text name="text2" str="Bitte drücken." x="-150" y="24" size="16"></Text>
+    </Component>
+  </Component>
+  <Component name="ScreenContext" visible="0">
+    <Component name="ContextInfo">
+      <Text name="numOfScreen" x="12"></Text>
+      <Text name="numOfLog" x="5"></Text>
+      <Text name="numOfFlag" x="0"></Text>
+      <Text name="firstScreen" str="CHECK_UPDATE"></Text>
+    </Component>
+    <Component name="CHECK_UPDATE">
+      <Text name="NOMAL" str="CHECKING_NEW_PACKAGES" x="0"></Text>
+    </Component>
+    <Component name="CHECKING_NEW_PACKAGES">
+      <Text name="UPDATE" str="EULA_SHOW" x="0"></Text>
+      <Text name="NO_UPDATE" str="NO_NEED_TO_UPDATE" x="0"></Text>
+    </Component>
+    <Component name="EULA_SHOW">
+      <Text name="NOMAL" str="EULA_CONFIRM" x="1"></Text>
+    </Component>
+    <Component name="EULA_CONFIRM">
+      <Text name="AGREE" str="EULA_AGREE" x="1"></Text>
+      <Text name="DISAGREE" str="EULA_DISAGREE" x="1"></Text>
+    </Component>
+    <Component name="EULA_AGREE">
+      <Text name="NOMAL" str="DNAS" x="0"></Text>
+      <Text name="NO_DNAS" str="DOWNLOADING" x="0"></Text>
+    </Component>
+    <Component name="DOWNLOADING">
+      <Text name="ERROR" str="END_PROCESS" x="0"></Text>
+    </Component>
+    <Component name="BACKUP">
+      <Text name="NOMAL" str="DNAS" x="0"></Text>
+      <Text name="DISC_UPDATE" str="INSTALLING" x="0"></Text>
+      <Text name="ERROR" str="END_PROCESS" x="0"></Text>
+    </Component>
+    <Component name="DNAS">
+      <Text name="NOMAL" str="DOWNLOADING" x="0"></Text>
+      <Text name="ERROR" str="END_PROCESS" x="0"></Text>
+    </Component>
+    <Component name="INSTALLING">
+      <Text name="ERROR" str="RESTORE" x="0"></Text>
+    </Component>
+    <Component name="END_PROCESS"></Component>
+    <Component name="EULA_DISAGREE"></Component>
+    <Component name="NO_NEED_TO_UPDATE"></Component>
+    <Component name="RESTORE"></Component>
+  </Component>
+  <Component name="CommonParts">
+    <Text name="TitleText" str="aktualisieren" visible="0"></Text>
+    <Text name="TitleText2" str="" visible="0"></Text>
+    <Text name="CancelText1" str="Rückkehr" visible="0"></Text>
+    <Text name="CancelText2" str="Nahaufnahme" visible="0"></Text>
+    <Text name="CancelText3" str="Abbrechen" visible="0"></Text>
+    <Text name="ConfirmText" str="Entscheidung" visible="0"></Text>
+    <Text name="ConfirmText2" str="Neustart" visible="0"></Text>
+    <Text name="OptionText" str="" visible="0"></Text>
+    <Bitmap name="ArrowRight" file="art/GT000020.tga" x="290" y="-5" w="28" h="30" visible="0"></Bitmap>
+    <Bitmap name="ArrowLeft" file="art/GT000020.tga" x="-290" y="-5" w="28" h="30" rot_z="0.5" visible="0"></Bitmap>
+    <Anim name="Anim_SlideLeftIn" loop="no">
+      <AnimSegment length="100" loop="no" duration="300" curve="0">
+        <Channel type="T" delta="0" closed="yes" loop="no">
+          <Frame time="0" x="720"></Frame>
+          <Frame time="99" x="0"></Frame>
+        </Channel>
+      </AnimSegment>
+    </Anim>
+    <Anim name="Anim_SlideLeftOut" loop="no">
+      <AnimSegment length="100" loop="no" duration="300" curve="0">
+        <Channel type="T" delta="0" closed="yes" loop="no">
+          <Frame time="0" x="0"></Frame>
+          <Frame time="99" x="-720"></Frame>
+        </Channel>
+      </AnimSegment>
+    </Anim>
+    <Anim name="Anim_SlideRightIn" loop="no">
+      <AnimSegment length="100" loop="no" duration="300" curve="0">
+        <Channel type="T" delta="0" closed="yes" loop="no">
+          <Frame time="0" x="-720"></Frame>
+          <Frame time="99" x="0"></Frame>
+        </Channel>
+      </AnimSegment>
+    </Anim>
+    <Anim name="Anim_SlideRightOut" loop="no">
+      <AnimSegment length="100" loop="no" duration="300" curve="0">
+        <Channel type="T" delta="0" closed="yes" loop="no">
+          <Frame time="0" x="0"></Frame>
+          <Frame time="99" x="720"></Frame>
+        </Channel>
+      </AnimSegment>
+    </Anim>
+    <Anim name="Anim_FadeIn" loop="no">
+      <AnimSegment length="100" loop="no" duration="300" curve="0">
+        <Channel type="C" delta="0" closed="yes" loop="no">
+          <Frame time="0" a="0.0"></Frame>
+          <Frame time="99" a="1.0"></Frame>
+        </Channel>
+      </AnimSegment>
+    </Anim>
+  </Component>
+</App>

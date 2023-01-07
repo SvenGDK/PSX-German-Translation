@@ -1,0 +1,48 @@
+<?dic version="1.0" language="jp" size="43" ?>
+
+{EnterStr} = "Eingabe";
+{SelectStr} = "Auswählen";
+{BackStr} = "Zurück";
+{ExitStr} = "Beenden";
+{InformationStr} = "Informationen";
+{OptionsStr} = "Optionen";
+{DisplayStr} = "Bildschirmanzeige";
+{ConfirmStr} = "Bestätigen";
+{DiscardStr} = "Löschen";
+{CaptureStr} = "Erfassen";
+{PanelStr} = "Bedienfeld";
+
+
+{ONStr} = "Ein";
+{OnStr} = "Ein";
+{OFFStr} = "Aus";
+{OffStr} = "Aus";
+{YESStr} = "Ja";
+{YesStr} = "Ja";
+{NOStr} = "Nein";
+{NoStr} = "Nein";
+{OKStr} = "OK";
+{OkStr} = "OK";
+{CANCELStr} = "Abbrechen";
+{CancelStr} = "Abbrechen";
+{CONTINUEStr} = "Weiter";
+{ContinueStr} = "Weiter";
+{NEXTStr} = "Weiter";
+{NextStr} = "Weiter";
+{PREVIOUSStr} = "Zurück";
+{PreviousStr} = "Vorherige";
+{AGREEStr} = "Ich stimme zu";
+{AgreeStr} = "Ich stimme zu";
+{DISAGREEStr} = "Ich stimme nicht zu";
+{DisagreeStr} = "Nicht einverstanden";
+{ACCEPTStr} = "Zulassen";
+{AcceptStr} = "Zulassen";
+{REJECTStr} = "Ablehnen";
+{RejectStr} = "Ablehnen";
+{SAVEStr} = "Speichern";
+{SaveStr} = "Speichern";
+{DELETEStr} = "Löschen";
+{DeleteStr} = "Löschen";
+{HELPStr} = "Hilfe";
+{HelpStr} = "Hilfe";
+

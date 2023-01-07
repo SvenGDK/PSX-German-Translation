@@ -1,0 +1,250 @@
+﻿<?dic version="1.0" language="jp" size="207"?>
+
+# -- Common
+
+{Sun} = "Sonntag";
+{Mon} = "Montag";
+{Tue} = "Dienstag";
+{Wed} = "Mittwoch";
+{Thu} = "Donnerstag";
+{Fri} = "Freitag";
+{Sat} = "Samstag";
+
+## +++ Use Cancel Message
+{Dub1} = "Dub";
+{Init1} = "Initialisieren";
+{Final1} = "Abschließen";
+{Form1} = "Format";
+
+## +++ Use Format Message
+{Dub2} = "Dub";
+{Init2} = "Initialisieren";
+{Final2} = "Abschließen";
+{Form2} = "Format";
+
+## +++ Use Timer Remain
+{Dub3} = "Dub";
+{Init3} = "Initialisieren";
+{Final3} = "Abschließen";
+{Form3} = "Format";
+
+
+# -- Button Help
+
+{DubTitle} = "Überspielen von Festplatte auf DVD";
+{DubTitle_Start} = "Überspielen von Festplatte auf DVD / Start prüfen";
+{DubTitle_DiskChk} = "Überspielen von Festplatte auf DVD / Festplattenprüfung";
+{DubTitle_Init} = "Überspielen / Initialisierung von Festplatte auf DVD";
+{DubTitle_SelectTitle} = "Überspielen von Festplatte auf DVD / Titel auswählen";
+{DubTitle_SelectMenu} = "Überspielen von Festplatte auf DVD / Menüauswahl";
+{DubTitle_PreviewMenu} = "Überspielen von Festplatte auf DVD / Ansicht vergrößern";
+{DubTitle_BurnStart} = "HDD→DVD-Überspielung / Auftragsbestätigung schreiben";
+{DubTitle_MenuEnco} = "Überspielen von Festplatte auf DVD / Erstellen von DVD-Menüs";
+{DubTitle_Apply} = "HDD→DVD überspielen/schreiben";
+{DubTitle_Finalize} = "HDD auf DVD überspielen / abschließen";
+{InitTitle} = "Initialisieren";
+{FinalTitle} = "Abschließen";
+{DiskTitle} = "Titelname der Festplatte";
+{HelpSelect} = "Eingabe";
+{HelpBack} = "Zurück";
+{HelpDiscont} = "Eingestellt";
+{HelpCancel} = "Abbrechen";
+{HelpOption} = "Optionen";
+
+# -- DVD Menu
+
+{NoMenu} = "Kein Menü erstellen";
+{Thumnail_Ex1} = "1 Miniaturbild";
+{Thumnail_Ex2} = "4Thumbnail";
+{Thumnail_Ex3} = "8Thumbnail";
+{Thumnail_Ex4} = "";
+{Thumnail_Ex5} = "3 Vorschaubilder (spezielles Layout)";
+
+# -- Option Menu
+
+{Opt_RecMode} = "Aufnahmemodus";
+{Opt_ModeFix} = "Korrekturmodus";
+{Opt_Auto} = "Auto-Modus";
+{Opt_Expan} = "Erweitern";
+{Opt_ChgName} = "Umbenennen";
+
+# -- Dubbing Top Page
+
+{StartMsg1} = "Überspielen von Festplattenmaterial auf DVD.";
+{StartMsg2} = "Legen Sie eine überspielbare Disc ein";
+{StartMsg3} = "Bitte drücken.";
+{StartMsg4} = "Die geplante Aufzeichnung wird nicht ausgeführt, während auf die Festplatte geschrieben wird.";
+{FormatMsg1} = "DVD formatieren.";
+{FormatMsg2} = "OK";
+{FormatMsg3} = "Bitte drücken";
+{DiskCheck} = "Festplatte prüfen";
+{DiskChkEnd} = "Festplattenprüfung abgeschlossen.";
+{DiskFormat} = "Initialisieren";
+{DiskFmtEnd} = "Initialisierung abgeschlossen.";
+
+# -- Dubbing Title Selection Page
+
+{Room} = "freier Speicherplatz";
+{Str_KB} = "%d KB";
+{Str_MB} = "%d MB";
+{TtlSelect1} = " ";
+{TtlSelect2} = "Titel zum Überspielen auswählen";
+{TtlSelect3} = "Bitte drücken.";
+{MenuSelect1} = " ";
+{MenuSelect2} = "DVD-Menü zum Erstellen auswählen";
+{MenuSelect3} = "Bitte drücken";
+{DateTime1} = "%d/%d(%s) %d:0%d %s";
+{DateTime2} = "%d/%d(%s) %d:%d %s";
+{DateTime3} = "%d/%d(%s) %d:0%d %s";
+{DateTime4} = "%d/%d(%s) %d:%d %s";
+
+# -- Dubbing Page
+
+{BurnStart} = "Überprüfen Sie die Reihenfolge, in der Sie die DVD brennen möchten.";
+{BurnStart1} = " ";
+{BurnStart2} = "Drücken, um mit dem Überspielen zu beginnen.";
+{FinalizMsg} = "Bitte bestätigen Sie das Einlegen der Disc zum Finalisieren.";
+{FinalizMsg1} = " ";
+{FinalizMsg2} = "Zum Finalisieren drücken.";
+{DubMsg1} = „Titel auf DVD überspielen.“;
+{DubMsg2} = "Schalten Sie das Gerät während des Überspielens nicht aus.";
+{DubMsg3} = "Das Überspielen wird fortgesetzt, auch wenn das Gerät ausgeschaltet wird.";
+{DubStatus} = "Wird geschrieben...";
+{Remain} = "Ungefähr %d Minuten %d Sekunden bis %s endet";
+{CancelStat} = "Wird abgebrochen...";
+{FinalStat} = "Abschließen...";
+{MenuStat} = "DVD-Menü erstellen...";
+{Prog} = "%d%";
+{Optim} = "%d% wird optimiert";
+
+{MEncoStart} = "Das Menü wird jetzt erstellt.\nDer Bildschirm wechselt automatisch, aber das ist normal.";
+{Form_End} = "Formatierung auf DVD abgeschlossen.\nFormatierung beenden.";
+{Final_End} = "Die Finalisierung auf DVD ist abgeschlossen.\nDie Finalisierung ist jetzt abgeschlossen.";
+{Menu_Create} = "Nachdem Sie das DVD-Menü erstellt haben,\nbeginnen Sie mit dem Überspielen.";
+
+# -- Dialog Message
+
+{Form_Video} = "%s im Videomodus ausführen.\nWenn etwas auf die Festplatte geschrieben wurde,\nwird es gelöscht.\nSind Sie sicher?";
+{Form_mVR} = "%s im VR-Modus ausführen.\nWenn etwas auf die Festplatte geschrieben wurde,\nwird es gelöscht.\nSind Sie sicher?";
+{Form_pVR1} = "Diese Disc ist eine DVD+RW, daher wird %s im\n+VR-Modus ausgeführt.\nFalls etwas auf die Disc geschrieben wurde,\nwird der Inhalt gelöscht.\n Ist es in Ordnung?";
+{Form_pVR2} = "Diese Disc ist eine DVD+RW, daher wird %s im\n+VR-Modus ausgeführt.\nFalls etwas auf die Disc geschrieben wurde,\nihr Inhalt wird gelöscht.\n Ist es in Ordnung?" ;
+{Form_End1} = "Initialisierung abgeschlossen.\nInitialisierung abgeschlossen.";
+{Form_Err1} = "Diese Festplatte kann nicht initialisiert werden.\nDie Initialisierung wird abgebrochen.";
+{Form_Err2} = "Diese Disc kann nicht formatiert werden.\nBitte legen Sie eine überspielbare Disc ein.\n";
+{Form_Err3} = "Da diese Disc eine DVD-R ist, wird sie im\nVideomodus überspielt.\nSind Sie sicher?";
+{Form_Err4} = "Da diese Disc eine DVD+R ist, wird sie im\n+VR-Modus überspielt.\nSind Sie sicher?";
+{Rec_Msg} = "Die geplante Aufnahme hat begonnen.\nMöchten Sie mit dem Überspielen fortfahren?\n\nWählen Sie Ja, um die Aufnahme zu stoppen und mit dem Überspielen fortzufahren.\nWählen Sie Nein, um das Überspielen zu beenden. .";
+{Dub_Stop} = "Überspielen stoppen.";
+{RecStart_Err} = "Aufnahme konnte nicht beendet werden.\nÜberspielung beenden.";
+{Guide_Cancel1} = "%s abbrechen.\nSind Sie sicher?";
+{Guide_Cancel2} = "%s abbrechen.\nSind Sie sicher?";
+{Dub_Cancel} = "Überspielen abbrechen.\nWenn Sie das Überspielen abbrechen, wird die Disc für DVD-R und DVD+R\nunbrauchbar.\nSind Sie sicher?";
+{Final_Cancel} = "Finalisierung abbrechen.\nBei DVD-R und DVD+R wird die Disc durch Abbrechen unbrauchbar.\nSind Sie sicher?";
+{DiskChk_Err} = "Festplattenprüfung konnte nicht gestartet werden.";
+{DiskTyp_Err1} = "Es ist keine Disc vorhanden.\nBitte legen Sie eine Disc ein, die überspielt werden kann.";
+{DiskTyp_Err2} = "Die Disc kann nicht überspielt werden.\nBitte legen Sie eine Disc ein, die überspielt werden kann.";
+{NoTitle_Err} = "Kein Titel zum Überspielen vorhanden.\nÜberspielen beenden.";
+{NoDVD_Err} = "Keine DVD gefunden.\nBitte legen Sie eine DVD ein.";
+{RecProh_Err} = "Aufnahmeverbot konnte nicht eingestellt werden.\nKopieren kann nicht gestartet werden.";
+{Guide_Timer} = "Es gibt eine geplante Aufnahme in 1 Stunde (%s).\nDie geplante Aufnahme wird während des Überspielens nicht gestartet.\nMöchten Sie mit dem Überspielen beginnen?";
+{Guide_Timer1} = "Es gibt eine geplante Aufnahme in %d Stunden (%s).\nDie geplante Aufnahme wird während des Überspielens nicht gestartet.\nMöchten Sie mit dem Überspielen beginnen?";
+{Guide_Timer2} = "Es gibt eine geplante Aufnahme in %d Stunden %d Minuten (%s).\nDie geplante Aufnahme wird während des Überspielens nicht gestartet.\nMöchten Sie mit dem Überspielen beginnen?";
+{Guide_Timer3} = "Überspielen beginnen.\n%s hat geplante Aufnahmen.\nGeplante Aufnahmen können während des Überspielens nicht durchgeführt werden.\nSind Sie sicher?";
+{Guide_Timer_Init} = "Es gibt eine geplante Aufnahme in 1 Stunde (%s).\nDie geplante Aufnahme wird während der Initialisierung nicht gestartet.\nMöchten Sie die Initialisierung starten?";
+{Guide_Timer_Init1} = "Es gibt eine geplante Aufnahme in %d Stunden (%s).\nDie geplante Aufnahme wird während der Initialisierung nicht gestartet.\nMöchten Sie die Initialisierung starten?";
+{Guide_Timer_Init2} = "In %d Stunden %d Minuten (%s) ist eine Aufnahme geplant.\nDie geplante Aufnahme wird während der Initialisierung nicht gestartet.\nMöchten Sie die Initialisierung starten?";
+{Guide_Timer_Init3} = "Initialisierung wird gestartet.\n%s hat geplante Aufnahmen.\nTimer kann während der Initialisierung keine Aufnahmen planen.\nSind Sie sicher?";
+{Dub_End1} = "Überspielen beendet.";
+{Dub_End2} = "Kopieren auf DVD abgeschlossen.\nKopieren beenden.";
+{Init_End1} = "Initialisierung abgeschlossen.";
+{FinalStart_Err} = "Finalisierung konnte nicht gestartet werden.";
+{DubStart_Err} = "Überspielen konnte nicht gestartet werden.";
+{MnEncoStart_Err} = "Erstellung des DVD-Menüs konnte nicht gestartet werden.";
+{Dub_Cancel1} = "Überspielen abbrechen.";
+{Dub_Cancel2} = "Überspielen abgebrochen.\nÜberspielen wird beendet.";
+{Dub_Err1} = "DVD ist voll.\nDieser Titel kann nicht überspielt werden.";
+{Dub_Err2} = "Es können keine weiteren Titel ausgewählt werden.\nDieser Titel kann nicht überspielt werden.";
+{Dub_Err3} = "Dieser Titel kann nicht überspielt werden,\nweil ​​er zu viele Kapitel hat.";
+{Dub_Err4} = "Dieser Titel kann nicht überspielt werden.";
+{Dub_Err5} = "Es sieht so aus, als wäre etwas schief gelaufen.";
+{Auth_Err1} = "DVD-Initialisierung fehlgeschlagen.\nÜberspielen wird abgebrochen.";
+{Auth_Err2} = "Unfinalisierung fehlgeschlagen.\nÜberspielen wird abgebrochen.";
+{Auth_Err3} = "DVD-Überspielung fehlgeschlagen.\nÜberspielung abgebrochen.";
+{Auth_Err4} = "Fehler beim Finalisieren der DVD.\nÜberspielen abgebrochen.";
+{Appli_Err1} = "Verarbeitung abbrechen angefordert.\nÜberspielen wird abgebrochen.";
+{Appli_Err2} = "Keine Menüvorlage.\nÜberspielung wird abgebrochen.";
+{Appli_Err3} = "Menüpunkt fehlt.\nÜberspielen abgebrochen.";
+{Appli_Err4} = "Encoder wird verwendet.\nKopieren stoppen.";
+{Appli_Err5} = "Das Laufwerk ist gesperrt.\nDas Überspielen wird abgebrochen.";
+{Appli_Err6} = "Gemeinsam genutzter Puffer wird verwendet.\nÜberspielen wird abgebrochen.";
+{Appli_Err7} = "Keine Sitzung.\nÜberspielung wird abgebrochen.";
+{Appli_Err8} = "Ungültige Sitzung.\nÜberspielen wird abgebrochen.";
+{Appli_Err9} = "DVD-Gerätefehler.\nKopieren abgebrochen.";
+{ATAPI_Err1} = "Nicht erkannte Disc.\nBitte legen Sie eine überspielbare Disc ein.";
+
+{ErrCode1} = "Ein Fehler ist aufgetreten.\nDas Überspielen wird abgebrochen. [%d]";
+{Audio_Main} = "Dieser Titel überspielt das zweisprachige Audio\nals Hauptaudio.\nDas Überspielen dauert so lange wie die\nWiedergabezeit des Titels.";
+{Audio_Sub} = "Dieser Titel überspielt das zweisprachige Audio\nals Sub-Audio.\nDas Überspielen dauert so lange wie die\nWiedergabezeit des Titels.";
+{RecMode_SLP} = "Setzen Sie den Aufnahmemodus auf SLP (+VR).\nDas Überspielen dauert ungefähr so\nwie der Titel abgespielt wird.";
+{RecMode_Auto} = "Alle Aufnahmemodi für den ausgewählten Titel\n werden automatisch angepasst. Sind Sie sicher?\n *Bei Titeln mit geschützten Aufnahmemodi\n wird der Aufnahmemodus nicht geändert. .";
+{Opt_RecMDFix} = "Aufnahmemodus korrigieren.\nDieser Titel passt den Aufnahmemodus nicht\nautomatisch an.\nSind Sie sicher?";
+{VR_Append} = "Disc im VR-Modus.\nAnhängen?";
+{pVR_Append} = "+VR-Modus-Disc.\nAnhängen?";
+{Auto_Adjust} = "Wegen unzureichendem Speicherplatz auf der DVD wird\nder Aufnahmemodus automatisch angepasst.\nWenn Sie den Aufnahmemodus für einen Titel festlegen möchten,\nwählen Sie Festgelegter Modus.\nSind Sie sicher?" ;
+{Move_Msg} = "Damit wird ein Titel überspielt, der nur einmal aufgenommen werden kann.\nNach dem Überspielen wird er, selbst wenn er geschützt ist,\nnicht von Ihrer Festplatte gelöscht.\nSind Sie sicher?";
+
+{SCE_Err1} = "ExecFormat-Fehler [-8]";
+{SCE_Err2} = "Falsche Dateinummer.[-9]";
+{SCE_Err3} = "Es ist nicht genügend Festplattenspeicher vorhanden, um das\nDVD-Menü zu erstellen.\nWenn Sie ein DVD-Menü erstellen möchten, beenden Sie das Überspielen und\löschen Sie unnötige Titel von der Festplatte. Bitte geben Sie mir Bescheid.";
+{SCE_Err4} = "Überspielen konnte nicht gestartet werden\naufgrund von unzureichendem Festplattenspeicher.\nBitte beenden Sie das Überspielen und löschen Sie unerwünschte Titel\nvon Ihrer Festplatte.";
+{Enco_Err1} = "Fehler beim Erstellen des DVD-Menüs.\nÜberspielen abgebrochen.";
+{Enco_Err2} = "Optimierung fehlgeschlagen.\nKopieren abgebrochen.";
+{Debug_Err1} = "Es gab einen Debug-Fehler bei Titel [%d]";
+{Menu_Err1} = "Sie können ein DVD-Menü mit bis zu 20 Seiten erstellen.\nDas ausgewählte Menü wird 20 Seiten überschreiten.\nBitte wählen Sie ein anderes Menü.";
+
+# -- Dialog
+
+{Yes} = "Ja";
+{No} = "Nein";
+{Mode_Video} = "Videomodus";
+{Mode_VR} = "VR-Modus";
+{Chg_Format} = "DVD-RW-Aufnahmemodus ändern";
+
+{Select_Mode} = "Wählen Sie einen Modus.";
+
+# -- MONGON.xml
+
+{mongon_str01} = "Abgebrochen.";
+{mongon_str02} = "DVD kann nicht gebrannt werden.";
+{mongon_str03} = "%$3: Fehlende Menüvorlage '%3$s'.";
+{mongon_str04} = "%$3: Element %1$s fehlt in Menüvorlage '%3$s'.";
+{mongon_str05} = "Aufzeichnung, Codierung nicht möglich.";
+{mongon_str06} = "DVD-Laufwerk wird verwendet.";
+{mongon_str07} = "Spielt gerade.";
+{mongon_str08} = "Keine Sitzung zum Abschließen angegeben.";
+{mongon_str09} = "%$3: Ungültige Sitzung zum Abschließen von '%3$s'.";
+{mongon_str10} = "8-cm-Medien werden nicht unterstützt.";
+{mongon_str11} = "Unbekannte Mediengröße.";
+{mongon_str12} = "DVD-Laufwerk konnte nicht beschrieben werden.";
+{mongon_str13} = "Geplante Aufnahme mit Priorität.";
+{mongon_str14} = "Aufzeichnung konnte nicht beendet werden.";
+{mongon_str15} = "DVD-Brenner";
+{mongon_str16} = "DVD-Treiberfehler";
+{mongon_str17} = "Ich kenne den DVD-Status nicht.";
+{mongon_str18} = "Fach konnte nicht geschlossen werden.";
+{mongon_str19} = "ATAPI-Treiber";
+{mongon_str20} = "Bibliothek konnte nicht geladen werden.";
+{mongon_str21} = "Erstellungsfehler";
+{mongon_str22} = "DVD-Status kann nicht gelesen werden.";
+{mongon_str23} = "DVD-Status konnte nicht abgerufen werden.";
+{mongon_str24} = "DVD konnte nicht initialisiert werden.";
+{mongon_str25} = "DVD konnte nicht finalisiert werden.";
+{mongon_str26} = "Titel konnte nicht auf DVD geschrieben werden.";
+{mongon_str27} = "Fehler beim Finalisieren der DVD.";
+{mongon_str28} = "Authoring-Komponente";
+{mongon_str29} = "ATAPI-Fehler";
+{mongon_str30} = "Ich kenne den DVD-Status nicht.";
+{mongon_str31} = "Fach konnte nicht geschlossen werden.";
+{mongon_str32} = "ATAPI-Protokoll";
+{mongon_str33} = "DVD-Zugriff";
+

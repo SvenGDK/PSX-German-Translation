@@ -6,6 +6,8 @@ Tested on DESR-5700 with Firmware 2.11.
 Dies ist die deutsche Übersetzung des XMB auf der PSX (DVR). </br>
 Getestet auf dem Model DESR-5700 mit der Firmware 2.11.
 
+In der ersten Version ist noch einiges mit dem Google Translator übersetzt, da es sehr viel zu übersetzen gibt und es viel Zeit in Anspruch nimmt eine 1:1 Übersetzung hinzubekommen. Ihr könnt aber gerne hier auf GitHub dazu beitragen :)
+
 Für die Installation wird wLaunchELF benötigt um die Dateien zu ersetzen. </br>
 Es werden jediglich nur einige Sprachdateien (.dic & .xml) des XMB ausgewechselt. </br>
 

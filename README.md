@@ -1,5 +1,6 @@
 # PSX-German-Translation
-This is the German translation for the XMB on the PSX (DVR). Tested on DESR-5700 with Firmware 2.11.
+This is the German translation for the XMB on the PSX (DVR). </br>
+Tested on DESR-5700 with Firmware 2.11.
 
 ## Deutsch: </br>
 Dies ist die deutsche Übersetzung des XMB auf der PSX (DVR). </br>

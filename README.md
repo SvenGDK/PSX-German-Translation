@@ -8,7 +8,7 @@ Getestet auf dem Model DESR-5700 mit der Firmware 2.11.
 Für die Installation wird wLaunchELF benötigt um die Dateien zu ersetzen. </br>
 Es werden jediglich nur einige Sprachdateien (.dic & .xml) des XMB ausgewechselt. </br>
 
-Fehler die auf anderen Modellen auftreten könnten:
+Fehler die auf anderen Modellen und Firmwares auftreten können:
 - Fehlender Text oder eine fehlende übersetzung.
 
 Die Installations-Anleitung ist im 7z Archiv enthalten.
